@@ -29,7 +29,7 @@ const About = () => {
               transition={{ duration: 0.5 }} 
               className="text-4xl font-bold mb-6"
             >
-              About WRLDS Technologies
+              About AIROTIX Technologies
             </motion.h1>
             
             <div className="prose prose-lg max-w-none">
@@ -39,7 +39,7 @@ const About = () => {
                 transition={{ duration: 0.5, delay: 0.2 }} 
                 className="text-xl text-gray-600 mb-12"
               >
-                We're a team of innovators dedicated to revolutionizing smart textile technology for industries worldwide.
+                We're a team of innovators dedicated to revolutionizing computer vision and AI automation for industries worldwide.
               </motion.p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
@@ -51,12 +51,12 @@ const About = () => {
                 >
                   <h2 className="text-3xl font-bold">Our Mission</h2>
                   <p className="text-gray-600">
-                    At WRLDS Technologies, we're on a mission to transform ordinary textiles into intelligent, 
-                    data-driven solutions that improve safety, performance, and quality of life across industries.
+At AIROTIX Technologies, we're on a mission to teach machines to see, understand, and make 
+                    intelligent decisions from visual data that improve efficiency, quality, and automation across industries.
                   </p>
                   <p className="text-gray-600">
-                    We believe that by embedding intelligence into everyday fabrics, we can create a more 
-                    connected, responsive, and safer world.
+                    We believe that by bringing the power of computer vision to real-world business problems, we can create 
+                    smarter, more efficient, and automated industrial processes.
                   </p>
                 </motion.div>
                 
@@ -70,19 +70,19 @@ const About = () => {
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Innovation:</strong> We push boundaries to create solutions that weren't possible before.</span>
+                      <span><strong>Innovation:</strong> We push the boundaries of computer vision to solve complex industrial challenges.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Quality:</strong> We're committed to excellence in every sensor, algorithm, and solution we deliver.</span>
+                      <span><strong>Precision:</strong> We deliver accurate AI models and vision systems that businesses can rely on.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Collaboration:</strong> We work closely with our clients to ensure their unique needs are met.</span>
+                      <span><strong>Partnership:</strong> We work closely with our clients to understand their specific automation needs.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Impact:</strong> We measure success by the tangible differences our technology makes in the real world.</span>
+                      <span><strong>Results:</strong> We measure success by the efficiency gains and cost savings our solutions deliver.</span>
                     </li>
                   </ul>
                 </motion.div>
@@ -97,19 +97,19 @@ const About = () => {
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <div className="bg-white rounded-xl border border-gray-200 p-8 shadow-sm">
                   <p className="text-gray-600 mb-4">
-                    We started with the ambition to make an inherently scattered and complex development area modular, 
-                    smart and available to analog brands. After successfully raising millions of dollars for development, 
-                    we spent the first two years in full code mode.
+                    We founded AIROTIX with the vision to bridge the gap between advanced computer vision research and 
+                    practical business applications. Our team combines deep expertise in AI, machine learning, and computer 
+                    vision with real-world industrial experience.
                   </p>
                   <p className="text-gray-600 mb-4">
-                    The goal was to turn all the scattered hardware and building blocks into simple modules to be 
-                    assembled like Lego. During this time we took in a range of customers for whom we built prototypes - 
-                    a way for us to make sure what we built had bearing in real world use cases.
+                    We started by focusing on manufacturing quality control, where computer vision can have immediate and 
+                    measurable impact. Working with early clients, we developed robust solutions for defect detection, 
+                    automated inspection, and process optimization.
                   </p>
                   <p className="text-gray-600">
-                    In 2023 we felt we had reached a technology level allowing us to start working on enterprise level. 
-                    Since then, we have focused on textile integrations because of the enormous potential smart textiles 
-                    have across multiple industries from healthcare to public safety.
+                    Today, AIROTIX serves clients across manufacturing, packaging, textiles, and other industries where 
+                    visual inspection and automation are critical. Our computer vision solutions help businesses reduce 
+                    waste, improve quality, and scale their operations efficiently.
                   </p>
                 </div>
               </motion.div>
@@ -122,34 +122,34 @@ const About = () => {
               >
                 <h2 className="text-3xl font-bold mb-6">Our Team</h2>
                 <p className="text-gray-600 mb-8">
-                  Our diverse team combines expertise in textile engineering, electronics, software development, 
-                  artificial intelligence, and industry-specific knowledge to deliver holistic solutions.
+                  Our diverse team combines expertise in computer vision, machine learning, software engineering, 
+                  AI development, and industry-specific knowledge to deliver comprehensive automation solutions.
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                   {[
                     {
-                      name: "Felix von Heland",
+                      name: "Dr. Sarah Chen",
                       role: "CEO and Founder",
-                      bio: "Leading WRLDS Technologies with a vision to transform the future of smart textiles.",
+                      bio: "Leading AIROTIX with expertise in computer vision and a passion for solving industrial challenges.",
                       image: "/lovable-uploads/aa5291bd-2417-4c1e-9a02-0bcc71a92507.png"
                     },
                     {
-                      name: "Niek Bijman",
-                      role: "Software Lead",
-                      bio: "Specializing in cloud infrastructure and APIs for seamless data integration.",
+                      name: "Alex Rodriguez",
+                      role: "AI/ML Engineer",
+                      bio: "Developing cutting-edge machine learning models for real-time defect detection and automation.",
                       image: "/lovable-uploads/e502f601-c519-43a8-86f5-5fa89ae50d2f.png"
                     },
                     {
-                      name: "Chengjie Li",
-                      role: "Hardware Lead",
-                      bio: "Expert in embedded systems engineering, leading our hardware development efforts.",
+                      name: "Michael Zhang",
+                      role: "Computer Vision Lead",
+                      bio: "Expert in computer vision algorithms, leading our technical development and innovation efforts.",
                       image: "/lovable-uploads/3de85ddd-15e1-4216-9697-f91abb9a47ce.png"
                     },
                     {
-                      name: "Love",
-                      role: "COO",
-                      bio: "Overseeing daily operations and ensuring business objectives are met effectively.",
+                      name: "Lisa Kumar",
+                      role: "Operations Director",
+                      bio: "Ensuring smooth project delivery and client success across all AIROTIX implementations.",
                       image: "/lovable-uploads/a9bb9110-964a-43b0-a5ab-7162140cd133.png"
                     }
                   ].map((member, i) => (
