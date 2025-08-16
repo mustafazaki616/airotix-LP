@@ -21,10 +21,10 @@ const Index = () => {
   return (
     <PageLayout>
       <SEO 
-        title="WRLDS - Smart Textile Technology" 
-        description="WRLDS Technologies: Pioneering smart engineering solutions with textile sensors for sports, safety, and performance monitoring."
+        title="AIROTIX - Computer Vision Solutions" 
+        description="AIROTIX: Leading computer vision and AI automation company. We teach machines to see, understand, and make decisions from visual data for industrial automation."
         imageUrl="/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png"
-        keywords={['smart textiles', 'wearable technology', 'textile sensors', 'sports tech', 'safety monitoring', 'performance analytics', 'manufacturing']}
+        keywords={['computer vision', 'AI automation', 'defect detection', 'quality control', 'industrial automation', 'surveillance analytics', 'machine learning']}
       />
       <Hero />
       <Features />

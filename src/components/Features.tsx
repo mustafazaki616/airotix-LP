@@ -24,26 +24,26 @@ const Features = () => {
   const features = [
     {
       icon: <Activity className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Sports Performance",
-      description: "Specialized fabrics that analyze form, provide instant feedback, and help prevent injuries in athletic equipment.",
+      title: "Quality Control",
+      description: "Real-time defect detection on production lines using computer vision to identify scratches, misprints, and misalignments.",
       image: "/lovable-uploads/48e540e5-6a25-44e4-b3f7-80f3bfc2777a.png"
     },
     {
       icon: <Shield className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Military & Defense",
-      description: "Tactical gear with embedded sensors for soldier health monitoring, environmental awareness, and enhanced safety.",
+      title: "Surveillance Analytics",
+      description: "Intelligent monitoring systems that detect unusual behavior, count objects, and analyze patterns in real-time.",
       image: "/lovable-uploads/48ecf6e2-5a98-4a9d-af6f-ae2265cd4098.png"
     },
     {
       icon: <HardHat className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Industrial Safety",
-      description: "Protective workwear that detects hazards, monitors fatigue, and prevents workplace injuries through early intervention.",
+      title: "Manufacturing Vision",
+      description: "AI-powered visual inspection systems for textiles, packaging, and industrial processes with instant feedback.",
       image: "/lovable-uploads/cf8966e3-de0d-445f-9fbd-ee6c48daa7ff.png"
     },
     {
       icon: <Zap className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Thermal Regulation",
-      description: "Adaptive heating and cooling textiles that respond to body temperature and environmental conditions.",
+      title: "Process Automation",
+      description: "Computer vision integration with automated machinery for faster, safer, and more accurate industrial workflows.",
       image: "/lovable-uploads/6739bd63-bf19-4abd-bb23-0b613bbf7ac8.png"
     }
   ];
@@ -108,31 +108,31 @@ const Features = () => {
     };
   }, []);
 
-  const sensorCaseStudies = [{
+  const visionCaseStudies = [{
     image: "/lovable-uploads/843446fe-638e-4efb-b885-ed3cd505325a.png",
-    title: "Firefighter Safety",
-    description: "Advanced protective gear with gas, temperature, positioning, and motion sensors for safer emergency response."
+    title: "Manufacturing Defect Detection",
+    description: "Real-time quality control systems that instantly identify product defects, scratches, and anomalies on production lines."
   }, {
     image: "/lovable-uploads/5463c9c5-0946-4280-a14b-17636ff69a98.png",
-    title: "Industrial Worker Protection",
-    description: "Safety workwear with vibration, pressure, and heating sensors to prevent injuries and monitor environmental hazards."
+    title: "Security & Surveillance",
+    description: "Intelligent monitoring solutions that detect unusual behavior, count people, and track objects in real-time."
   }, {
     image: "/lovable-uploads/c5f8ee24-9815-4ebe-b65d-6f3d449feb8b.png",
-    title: "Sports Performance",
-    description: "Smart athletic wear with temperature and pressure sensors that track hydration, foot strike patterns, and performance metrics."
+    title: "Automated Inspection",
+    description: "AI-powered visual inspection systems for packaging, textiles, and industrial processes with instant decision-making."
   }];
   const stepFlowItems = [{
     icon: <Microchip className="h-10 w-10 text-gray-700" />,
-    title: "WRLDS Proprietary Modules",
-    description: "Our core technology components developed in-house"
+    title: "AIROTIX Proprietary AI Models",
+    description: "Custom computer vision algorithms trained for specific industries"
   }, {
     icon: <Factory className="h-10 w-10 text-gray-700" />,
-    title: "Vetted Off-the-Shelf Hardware",
-    description: "Carefully selected components that complement our technology"
+    title: "Advanced Vision Frameworks",
+    description: "YOLOv8, TensorFlow, PyTorch, and OpenCV integration for optimal performance"
   }, {
     icon: <Handshake className="h-10 w-10 text-gray-700" />,
-    title: "Vetted Production Partners",
-    description: "Expert manufacturing partners for quality and reliability"
+    title: "Enterprise Integration",
+    description: "Seamless deployment into existing industrial workflows and systems"
   }];
   const sprintPhases = [{
     name: "Planning",
@@ -153,10 +153,10 @@ const Features = () => {
         <div className="w-full px-4 sm:px-6 lg:px-8" ref={featuresRef}> 
           <div className="text-center mb-10 max-w-3xl mx-auto feature-item">
             <div className="inline-block mb-2 px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
-              Textile Sensor Applications
+              Computer Vision Applications
             </div>
             <p className="text-gray-600 mt-4">
-              Our textile sensor technology transforms ordinary fabrics into intelligent interfaces that collect data, monitor conditions, and enhance performance across diverse sectors.
+              Our computer vision technology enables machines to see, understand, and make intelligent decisions from visual data across manufacturing, surveillance, and automation sectors.
             </p>
           </div>
           
@@ -278,12 +278,12 @@ const Features = () => {
           <div className="mt-16 mb-8 feature-item">
             <div className="text-center mb-8">
               <div className="inline-block mb-2 px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
-                Textile Sensor Applications
+                Computer Vision Applications
               </div>
               <h3 className="text-2xl font-bold">Real-World Use Cases</h3>
               <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
-                Explore how our textile sensors are applied in different professional contexts, 
-                from emergency response to construction and athletics.
+                Explore how our computer vision solutions are transforming industries, 
+                from manufacturing quality control to intelligent surveillance systems.
                 <span className="block text-sm mt-1 text-blue-500">Scroll horizontally to see more examples →</span>
               </p>
             </div>
@@ -291,7 +291,7 @@ const Features = () => {
             <div className="rounded-xl overflow-hidden bg-white p-4 feature-item">
               <Carousel className="w-full max-w-7xl mx-auto">
                 <CarouselContent className="flex">
-                  {sensorCaseStudies.map((study, index) => <CarouselItem key={index} className="md:basis-1/3 flex-shrink-0">
+                  {visionCaseStudies.map((study, index) => <CarouselItem key={index} className="md:basis-1/3 flex-shrink-0">
                       <Card className="border border-gray-100 shadow-md">
                         <CardContent className="p-0">
                           <div className="w-full h-full">
@@ -311,7 +311,7 @@ const Features = () => {
                 </div>
               </Carousel>
               <div className="text-center mt-6 text-sm text-gray-600">
-                <p className="font-medium">These examples showcase just a few ways our textile sensors can enhance safety and performance</p>
+                <p className="font-medium">These examples showcase just a few ways our computer vision solutions can enhance efficiency and automation</p>
               </div>
             </div>
           </div>
@@ -335,10 +335,10 @@ const Features = () => {
             <div className="inline-block mb-2 px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
               Our Approach
             </div>
-            <h2 className="text-3xl font-bold mb-4">How our technology works</h2>
+            <h2 className="text-3xl font-bold mb-4">How our computer vision works</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              WRLDS builds hardware and software with proprietary and off-the-shelf modules, 
-              allowing us to develop completely unique solutions at high speed and lower risk.
+              AIROTIX combines cutting-edge AI frameworks with custom algorithms and enterprise integration, 
+              delivering real-time computer vision solutions that transform how industries operate.
             </p>
           </div>
           
