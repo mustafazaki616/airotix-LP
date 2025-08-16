@@ -8,52 +8,52 @@ import { useIsMobile } from "@/hooks/use-mobile";
 const projects = [
   {
     id: 1,
-    title: "6th SENSE Safety System",
-    brand: "FireCat Group",
-    description: "AI-driven sensor solution integrated into uniforms for law enforcement, military and firefighters, providing real-time vital monitoring and situational awareness in high-risk environments.",
-    tags: ["Safety", "Military", "AI Sensors", "Real-time Monitoring"],
+    title: "Manufacturing Quality Control",
+    brand: "Industrial Automation Solutions",
+    description: "Real-time defect detection system for textile manufacturing, identifying fabric flaws, color variations, and pattern misalignments with 99.5% accuracy.",
+    tags: ["Manufacturing", "Quality Control", "AI Vision", "Real-time Detection"],
     imageUrl: "/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png",
     isFeatured: true,
-    link: "/projects/firecat",
+    link: "/projects/manufacturing",
     details: `
-      FireCat Group aimed to enhance safety in high-risk environments. WRLDS Technologies provided the 6th SENSE solution with secure real-time data transmission, high-quality sensors resistant to extreme conditions, integrated AI-powered clothing, and a centralized control unit. Features include Man Down Alarm, GPS positioning, vital sign monitoring, and Panic Button. Benefits: life-saving technology, machine learning preventing false alarms, durable hardware with 7-10 year lifespan, washable sensors, and Plug & Play installation with 12-20 hours of operation per charge.
+      Advanced computer vision system deployed on production lines to automatically detect defects in textile manufacturing. Uses YOLOv8 and custom-trained models to identify scratches, holes, color inconsistencies, and pattern deviations in real-time, reducing manual inspection costs by 85% and improving quality consistency.
     `
   },
   {
     id: 2,
-    title: "Performance Athletic Footwear",
-    brand: "Global Sports Retail Leader",
-    description: "Smart Footwear R&D aiming to revolutionize development, fitting, and testing of athletic footwear.",
-    tags: ["Sports", "R&D", "Footwear", "Athletic Performance"],
+    title: "Smart Surveillance Analytics",
+    brand: "Security Technology Leader",
+    description: "AI-powered surveillance system that analyzes behavior patterns, counts objects, and detects anomalies in real-time across multiple camera feeds.",
+    tags: ["Surveillance", "Behavior Analysis", "Object Detection", "Security"],
     imageUrl: "/lovable-uploads/b0622048-17b4-4c75-a3f0-6c9e17de1d09.png",
-    link: "/projects/sport-retail"
+    link: "/projects/surveillance"
   },
   {
     id: 3,
-    title: "Workwear Climate Control",
-    brand: "European Multinational Textile Producer",
-    description: "Fully integrated temperature controls for professionals working in extreme heat and cold. Modular approach to enable full-body systems.",
-    tags: ["Climate Control", "Workwear", "Temperature Regulation", "Extreme Conditions"],
+    title: "Packaging Inspection System",
+    brand: "Global Packaging Corporation",
+    description: "Automated visual inspection for packaging lines, detecting label placement errors, seal quality issues, and product positioning with machine learning.",
+    tags: ["Packaging", "Automated Inspection", "Machine Learning", "Quality Assurance"],
     imageUrl: "/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png",
-    link: "/projects/workwear"
+    link: "/projects/packaging"
   },
   {
     id: 4,
-    title: "Ice Hockey Elite Skill Tracker",
-    brand: "Mars Blades",
-    description: "R&D product evaluating data from single IMU embedded in the hockey shoe. Aim: establish motion patterns that lead to ultimate acceleration, speed, and maneuverability.",
-    tags: ["Ice Hockey", "Motion Analysis", "Performance Tracking", "Sports"],
+    title: "Warehouse Automation Vision",
+    brand: "Logistics Technology Provider",
+    description: "Computer vision system for warehouse automation, enabling robotic sorting, inventory tracking, and damage detection in logistics operations.",
+    tags: ["Warehouse", "Automation", "Robotic Vision", "Logistics"],
     imageUrl: "/lovable-uploads/c30e0487-2fa0-41d1-9a0b-699cb2855388.png",
-    link: "/projects/hockey"
+    link: "/projects/warehouse"
   },
   {
     id: 5,
-    title: "Dog Activity Counter",
-    brand: "UK Insurance Giant",
-    description: "R&D project embedding a step counter in a dog collar. Measures daily activity and sends real-time data to the cloud for veterinary consultancies.",
-    tags: ["Pet Technology", "Insurance", "Activity Tracking", "R&D"],
+    title: "Medical Device Inspection",
+    brand: "Healthcare Technology Innovator",
+    description: "Precision computer vision for medical device manufacturing, ensuring component accuracy and detecting microscopic defects in critical healthcare equipment.",
+    tags: ["Healthcare", "Medical Devices", "Precision Inspection", "Compliance"],
     imageUrl: "/lovable-uploads/d5ce901e-2ce0-4f2a-bce1-f0ca5d6192df.png",
-    link: "/projects/pet-tracker"
+    link: "/projects/medical"
   }
 ];
 
@@ -133,10 +133,10 @@ const Projects = () => {
             Customer Cases
           </div>
           <h2 className="text-3xl font-bold mb-3">
-            From Textile to Intelligence
+            From Vision to Intelligence
           </h2>
           <p className="text-gray-600">
-            Explore how our textile sensor technology is revolutionizing multiple industries with intelligent fabric solutions tailored to specific needs.
+            Explore how our computer vision technology is transforming industries with intelligent automation solutions tailored to specific operational needs.
           </p>
           {isMobile && (
             <div className="flex items-center justify-center mt-4 animate-pulse-slow">

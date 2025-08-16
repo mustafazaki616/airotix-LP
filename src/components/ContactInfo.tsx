@@ -14,7 +14,7 @@ const ContactInfo = () => {
             Contact Us Today
           </h2>
           <p className="text-gray-700 text-lg max-w-2xl mx-auto">
-            Have questions about our AI-powered sensor solutions? Reach out to our team and let's discuss how we can help bring your ideas to life.
+            Have questions about our computer vision solutions? Reach out to our team and let's discuss how we can help automate your visual processes.
           </p>
         </div>
 
@@ -27,12 +27,12 @@ const ContactInfo = () => {
                 alt="Felix von Heland"
                 className="w-32 h-32 rounded-full mb-4 object-cover filter grayscale"
               />
-              <h3 className="text-xl font-bold text-gray-900">Felix von Heland</h3>
-              <p className="text-gray-600 mb-4">CEO and Founder</p>
+              <h3 className="text-xl font-bold text-gray-900">AIROTIX Team</h3>
+              <p className="text-gray-600 mb-4">Computer Vision Specialists</p>
               <div className="flex flex-col space-y-3">
-                <a href="mailto:felix@wrlds.com" className="flex items-center text-gray-700 hover:text-blue-600">
+                <a href="mailto:info@airotix.com" className="flex items-center text-gray-700 hover:text-blue-600">
                   <Mail className="w-5 h-5 mr-2" />
-                  felix@wrlds.com
+                  info@airotix.com
                 </a>
                 <a 
                   href="https://www.linkedin.com/in/felixvonheland/" 
@@ -55,25 +55,16 @@ const ContactInfo = () => {
                 alt="Love Anderberg"
                 className="w-32 h-32 rounded-full mb-4 object-cover filter grayscale"
               />
-              <h3 className="text-xl font-bold text-gray-900">Love Anderberg</h3>
-              <p className="text-gray-600 mb-4">COO</p>
+              <h3 className="text-xl font-bold text-gray-900">Contact Sales</h3>
+              <p className="text-gray-600 mb-4">Business Development</p>
               <div className="flex flex-col space-y-3">
-                <a href="mailto:love@wrlds.com" className="flex items-center text-gray-700 hover:text-blue-600">
+                <a href="mailto:sales@airotix.com" className="flex items-center text-gray-700 hover:text-blue-600">
                   <Mail className="w-5 h-5 mr-2" />
-                  love@wrlds.com
+                  sales@airotix.com
                 </a>
-                <a 
-                  href="https://www.linkedin.com/in/love-anderberg-67549a174/" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center text-gray-700 hover:text-blue-600"
-                >
-                  <Linkedin className="w-5 h-5 mr-2" />
-                  LinkedIn Profile
-                </a>
-                <a href="tel:+46760149508" className="flex items-center text-gray-700 hover:text-blue-600">
+                <a href="tel:+1234567890" className="flex items-center text-gray-700 hover:text-blue-600">
                   <Phone className="w-5 h-5 mr-2" />
-                  076-014 95 08
+                  +1 (234) 567-8900
                 </a>
               </div>
             </div>

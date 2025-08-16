@@ -34,7 +34,7 @@ const Footer = () => {
         from_name: "Website Subscriber",
         from_email: email,
         message: `New subscription request from the website footer.`,
-        to_name: 'WRLDS Team',
+        to_name: 'AIROTIX Team',
         reply_to: email
       };
       
@@ -72,11 +72,11 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <img 
               src="/lovable-uploads/7d120ee6-3614-4b75-9c35-716d54490d67.png" 
-              alt="WRLDS Technologies Logo" 
+              alt="AIROTIX Technologies Logo" 
               className="h-10 w-auto mb-6 invert" // Added invert to make logo white
             />
             <p className="text-gray-300 mb-6">
-              WRLDS Technologies provides an end-to-end platform for the creation and deployment of AI-powered smart sensor devices, giving customers 100% ownership while handling the complete technological development.
+              AIROTIX specializes in computer vision solutions that automate visual tasks for industries. We help businesses integrate AI-powered vision systems to improve efficiency, reduce costs, and scale operations intelligently.
             </p>
             <p className="text-gray-300 mb-6">
               Hornsgatan 110<br />
@@ -134,7 +134,7 @@ const Footer = () => {
         
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} WRLDS Technologies. All rights reserved.
+            © {new Date().getFullYear()} AIROTIX Technologies. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <Link to="/privacy-policy" className="text-sm text-gray-400 hover:text-white transition-colors">Privacy Policy</Link>
