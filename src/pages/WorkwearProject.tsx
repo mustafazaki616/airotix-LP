@@ -7,7 +7,7 @@ const WorkwearProject = () => {
       title="Workwear Climate Control"
       subtitle="Intelligent temperature regulation for extreme work environments"
       imageUrl="/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png"
-      brandName="European Multinational Textile Producer"
+      brandName="European Manufacturing Client"
     >
       <div className="bg-yellow-50 p-4 rounded-lg mb-6 flex items-center">
         <FlaskConical className="h-5 w-5 text-yellow-600 mr-2 flex-shrink-0" />
@@ -34,7 +34,7 @@ const WorkwearProject = () => {
       
       <h3 className="text-2xl font-semibold mb-4 mt-8">Solution</h3>
       <p>
-        WRLDS Technologies developed a comprehensive climate control workwear platform featuring:
+        AIROTIX developed a comprehensive computer vision-guided climate control workwear platform featuring:
       </p>
       
       <div className="grid md:grid-cols-2 gap-6 my-8">

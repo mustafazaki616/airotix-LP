@@ -16,29 +16,29 @@ const DevelopmentProcess = () => {
   // Process component logic
   const processes = [{
     id: 1,
-    title: "Textile Sensor Design",
-    description: "We begin by designing custom textile sensors specifically for your industry and use case, selecting appropriate conductive materials and sensor types.",
-    steps: ["Industry-specific requirement analysis", "Sensor type and material selection", "Prototype sensor development", "Initial testing and calibration"]
+    title: "Computer Vision Analysis",
+    description: "We begin by analyzing your visual data requirements and designing custom computer vision models for your industry-specific use case.",
+    steps: ["Visual data requirement analysis", "CV model architecture selection", "Training dataset preparation", "Initial model development and testing"]
   }, {
     id: 2,
-    title: "Garment Integration",
-    description: "Our engineering team seamlessly integrates sensors into clothing and footwear while maintaining comfort, durability, and washability.",
-    steps: ["Ergonomic placement optimization", "Non-intrusive integration techniques", "Durability and washability testing", "Comfort and user experience validation"]
+    title: "AI Model Training",
+    description: "Our AI team trains sophisticated computer vision models using your specific data, ensuring high accuracy for defect detection and quality control.",
+    steps: ["Data preprocessing and augmentation", "Model training with domain-specific data", "Accuracy optimization and validation", "Performance benchmarking"]
   }, {
     id: 3,
-    title: "AI & Data Analytics",
-    description: "We develop specialized algorithms that transform textile sensor data into actionable insights unique to your industry requirements.",
-    steps: ["Industry-specific algorithm development", "ML model training with domain data", "Real-time analytics implementation", "Insight delivery optimization"]
+    title: "System Integration",
+    description: "We seamlessly integrate computer vision solutions into your existing manufacturing or production systems with minimal disruption.",
+    steps: ["System architecture design", "API development and integration", "Real-time processing implementation", "Quality assurance testing"]
   }, {
     id: 4,
-    title: "Production & Certification",
-    description: "We handle manufacturing, quality control, and ensure all textile sensor products meet relevant industry standards and certifications.",
-    steps: ["Textile manufacturing partner selection", "Quality assurance processes", "Industry-specific certification procurement", "Initial production supervision"]
+    title: "Deployment & Optimization",
+    description: "We deploy the computer vision system and continuously optimize performance based on real-world data and feedback.",
+    steps: ["Production environment deployment", "Performance monitoring setup", "Continuous model improvement", "System optimization"]
   }, {
     id: 5,
-    title: "Deployment & Support",
-    description: "We provide comprehensive training, implementation assistance, and ongoing support to ensure successful adoption and continuous improvement.",
-    steps: ["User training and onboarding", "Data interpretation guidance", "Performance monitoring", "Continuous improvement iterations"]
+    title: "Support & Maintenance",
+    description: "We provide ongoing support, model updates, and system maintenance to ensure consistent performance and adapt to changing requirements.",
+    steps: ["24/7 system monitoring", "Regular model retraining", "Performance reporting", "Continuous improvement implementation"]
   }];
   useEffect(() => {
     processSectionsRef.current = processes.map((_, i) => processSectionsRef.current[i] || null);
@@ -122,12 +122,12 @@ const DevelopmentProcess = () => {
               Back to Home
             </Link>
             
-            <h1 className="text-4xl font-bold mb-8">Our Structured Development Process</h1>
+            <h1 className="text-4xl font-bold mb-8">AIROTIX Computer Vision Development Process</h1>
             
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-600 mb-12">
-                We've refined our development methodology to minimize risk and maximize innovation, 
-                ensuring your textile sensor project moves efficiently from concept to reality.
+                We've refined our computer vision development methodology to minimize risk and maximize innovation, 
+                ensuring your AI automation project moves efficiently from concept to reality.
               </p>
               
               {/* From Textile to Intelligence Process Section */}

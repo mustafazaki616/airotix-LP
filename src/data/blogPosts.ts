@@ -38,7 +38,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'wearable-safety-tech-protecting-workers-roi',
     excerpt: 'Discover how wearable safety technology puts worker wellbeing first while delivering measurable business benefits through injury prevention and enhanced workplace safety.',
     date: 'June 12, 2025',
-    author: 'WRLDS Technologies',
+    author: 'AIROTIX Technologies',
     category: 'Business',
     imageUrl: '/lovable-uploads/078a129e-0f98-4d91-af61-873687db1a04.png',
     keywords: [
@@ -144,7 +144,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'heading',
-        content: 'How WRLDS Supports Your Safety Mission'
+        content: 'How AIROTIX Computer Vision Supports Your Safety Mission'
       },
       {
         type: 'paragraph',
@@ -203,7 +203,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'smart-ppe-revolution-safety-technology',
     excerpt: 'Discover how smart textiles and sensor technology are revolutionizing personal protective equipment, creating safer workplaces and preventing accidents before they happen.',
     date: 'June 5, 2025',
-    author: 'WRLDS Technologies',
+    author: 'AIROTIX Technologies',
     category: 'Innovation',
     imageUrl: '/lovable-uploads/927dae7e-6aaf-4b76-add2-1287a1dd9dc0.png',
     keywords: [
@@ -298,7 +298,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'leveraging-sensor-technology-product-development',
     excerpt: 'Explore how sensor technology is revolutionizing product development across industries, from smart textiles to IoT devices, and learn strategic approaches for implementation.',
     date: 'May 8, 2025',
-    author: 'WRLDS Technologies',
+    author: 'AIROTIX Technologies',
     category: 'Technology',
     imageUrl: '/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png',
     keywords: [

@@ -54,7 +54,7 @@ const TechDetails = () => {
               duration: 0.5,
               delay: 0.2
             }} className="text-base sm:text-lg text-gray-600 mb-12">
-                Explore the technical details behind our smart textile sensor technology and learn how our system architecture enables rapid development and deployment.
+                Explore the technical details behind our computer vision technology and learn how our AI architecture enables rapid development and deployment of automation solutions.
               </motion.p>
               
               {/* System Architecture Section */}
@@ -73,8 +73,8 @@ const TechDetails = () => {
                 </div>
                 
                 <p className="text-gray-600 mb-8 text-base max-w-3xl">
-                  Our platform uses a three-tier architecture connecting physical devices to our cloud services and user applications. 
-                  The diagram below illustrates how data flows through our system, from sensor collection to user-facing applications.
+                  Our platform uses a three-tier architecture connecting camera systems to our AI cloud services and user applications. 
+                  The diagram below illustrates how visual data flows through our system, from image capture to intelligent insights.
                 </p>
 
                 {/* Progress bar showing flow */}
@@ -108,8 +108,8 @@ const TechDetails = () => {
                 </div>
                 
                 <p className="text-gray-600 mb-8 text-base max-w-3xl">
-                  At WRLDS, we've developed a systematic approach to creating smart textile solutions that combines technical innovation with practical implementation. 
-                  Our comprehensive development process ensures that every project moves efficiently from concept to market-ready product.
+                  At AIROTIX, we've developed a systematic approach to creating computer vision solutions that combines technical innovation with practical implementation. 
+                  Our comprehensive development process ensures that every project moves efficiently from concept to production-ready AI system.
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
