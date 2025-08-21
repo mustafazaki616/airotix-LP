@@ -21,7 +21,7 @@ const Index = () => {
   return (
     <PageLayout>
       <SEO 
-        title="AIROTIX - Computer Vision Solutions" 
+        title="AIROTIX " 
         description="AIROTIX: Leading computer vision and AI automation company. We teach machines to see, understand, and make decisions from visual data for industrial automation."
         imageUrl="/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png"
         keywords={['computer vision', 'AI automation', 'defect detection', 'quality control', 'industrial automation', 'surveillance analytics', 'machine learning']}
