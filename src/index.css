@@ -277,3 +277,39 @@
 .animate-pulse-slow {
   animation: pulse-slow 4s ease-in-out infinite;
 }
+
+/* Hide Spline watermark */
+.spline-watermark,
+[class*="watermark"],
+[id*="watermark"],
+a[href*="spline.design"],
+[class*="spline-logo"],
+[id*="spline-logo"],
+[class*="spline"][class*="logo"],
+[class*="built"][class*="spline"],
+div[style*="position: absolute"][style*="bottom"],
+div[style*="position: fixed"][style*="bottom"],
+canvas + div,
+canvas ~ div,
+.spline-viewer div[style*="position: absolute"],
+.spline-viewer div[style*="bottom"],
+.spline-viewer a,
+[data-spline-watermark],
+[data-spline-logo] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  z-index: -9999 !important;
+}
+
+/* Additional watermark hiding for canvas siblings */
+canvas + *,
+canvas ~ * {
+  position: relative;
+}
+
+canvas + *:last-child,
+canvas ~ *:last-child {
+  display: none !important;
+}

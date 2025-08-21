@@ -17,17 +17,17 @@ const Blog = () => {
   return (
     <PageLayout>
       <SEO 
-        title="WRLDS - News and insights about smart textile technology" 
-        description="Stay updated with the latest news and insights about sensor-integrated textiles and smart technology from WRLDS Technologies."
-        imageUrl={featuredPost?.imageUrl || "/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png"}
-        keywords={['smart textiles', 'textile technology', 'industry news', 'sensor innovation', 'wearable tech', 'smart fabrics']}
-        type="website"
+         title="AIROTIX - News and insights about computer vision technology"
+         description="Stay updated with the latest news and insights about computer vision, AI automation, and industrial solutions from AIROTIX Technologies."
+         imageUrl={featuredPost?.imageUrl || "/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png"}
+         keywords={['computer vision', 'AI automation', 'industry news', 'defect detection', 'industrial automation', 'surveillance analytics']}
+         type="website"
       />
       
       <div className="w-full pt-24 pb-12 bg-gradient-to-b from-black to-gray-900 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">WRLDS News &amp; Insights</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">AIROTIX News &amp; Insights</h1>
             <p className="text-xl text-gray-300 mb-6">
               The latest trends and news in sensor-integrated textiles and smart technology
             </p>

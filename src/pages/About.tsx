@@ -39,7 +39,7 @@ const About = () => {
                 transition={{ duration: 0.5, delay: 0.2 }} 
                 className="text-xl text-gray-600 mb-12"
               >
-                We're a team of innovators dedicated to revolutionizing computer vision and AI automation for industries worldwide.
+                We're a technology company that focuses on building computer vision-powered solutions that help industries automate tasks that normally require human eyes. In simple words, we teach machines to see, understand, and make decisions from visual data.
               </motion.p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
@@ -51,12 +51,12 @@ const About = () => {
                 >
                   <h2 className="text-3xl font-bold">Our Mission</h2>
                   <p className="text-gray-600">
-At AIROTIX Technologies, we're on a mission to teach machines to see, understand, and make 
-                    intelligent decisions from visual data that improve efficiency, quality, and automation across industries.
+                    At AIROTIX, our mission is to bridge the gap between AI research and real-world business problems. 
+                    We combine the latest advancements (YOLOv8, TensorFlow, PyTorch, OpenCV) with practical industry experience.
                   </p>
                   <p className="text-gray-600">
-                    We believe that by bringing the power of computer vision to real-world business problems, we can create 
-                    smarter, more efficient, and automated industrial processes.
+                    Our goal is to reduce inefficiencies, cut down human workload, and improve decision-making through 
+                    computer vision and intelligent software solutions.
                   </p>
                 </motion.div>
                 
@@ -70,19 +70,19 @@ At AIROTIX Technologies, we're on a mission to teach machines to see, understand
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Innovation:</strong> We push the boundaries of computer vision to solve complex industrial challenges.</span>
+                      <span><strong>Real-Time Detection:</strong> Instant defect detection in textiles, manufacturing, and packaging industries.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Precision:</strong> We deliver accurate AI models and vision systems that businesses can rely on.</span>
+                      <span><strong>Quality Control:</strong> AI-powered systems that ensure consistent product quality and reduce human error.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Partnership:</strong> We work closely with our clients to understand their specific automation needs.</span>
+                      <span><strong>Industrial Automation:</strong> Vision AI integrated into machinery for faster, safer, and more accurate operations.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Results:</strong> We measure success by the efficiency gains and cost savings our solutions deliver.</span>
+                      <span><strong>Security Analytics:</strong> Intelligent monitoring for unusual behavior detection and real-time analysis.</span>
                     </li>
                   </ul>
                 </motion.div>
@@ -97,19 +97,17 @@ At AIROTIX Technologies, we're on a mission to teach machines to see, understand
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <div className="bg-white rounded-xl border border-gray-200 p-8 shadow-sm">
                   <p className="text-gray-600 mb-4">
-                    We founded AIROTIX with the vision to bridge the gap between advanced computer vision research and 
-                    practical business applications. Our team combines deep expertise in AI, machine learning, and computer 
-                    vision with real-world industrial experience.
+                    AIROTIX was founded with the vision to make computer vision accessible to industries that need it most. 
+                    We specialize in real-time defect detection, AI-powered quality control, industrial automation with vision AI, 
+                    and surveillance & security analytics.
                   </p>
                   <p className="text-gray-600 mb-4">
-                    We started by focusing on manufacturing quality control, where computer vision can have immediate and 
-                    measurable impact. Working with early clients, we developed robust solutions for defect detection, 
-                    automated inspection, and process optimization.
+                    Beyond our core computer vision expertise, we also provide supporting services including web & mobile app development, 
+                    AI & automation consulting, and custom enterprise software solutions to meet broader business needs.
                   </p>
                   <p className="text-gray-600">
-                    Today, AIROTIX serves clients across manufacturing, packaging, textiles, and other industries where 
-                    visual inspection and automation are critical. Our computer vision solutions help businesses reduce 
-                    waste, improve quality, and scale their operations efficiently.
+                    Our solutions analyze products on moving production lines, detect defects like scratches, misprints, holes, or misalignments, 
+                    and provide intelligent monitoring that can detect unusual behavior, count people, track objects, or analyze patterns in real-time.
                   </p>
                 </div>
               </motion.div>

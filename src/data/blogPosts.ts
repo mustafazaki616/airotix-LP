@@ -33,6 +33,152 @@ export interface ContentSection {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: '7',
+    title: 'Computer Vision in Manufacturing: Revolutionizing Quality Control with AI',
+    slug: 'computer-vision-manufacturing-quality-control',
+    excerpt: 'Discover how computer vision and AI are transforming manufacturing quality control, enabling real-time defect detection and automated inspection systems.',
+    date: 'June 20, 2025',
+    author: 'AIROTIX Technologies',
+    category: 'Technology',
+    imageUrl: '/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png',
+    keywords: [
+      'computer vision',
+      'manufacturing quality control',
+      'AI automation',
+      'defect detection',
+      'industrial automation',
+      'machine learning',
+      'YOLOv8',
+      'TensorFlow',
+      'PyTorch',
+      'OpenCV',
+      'automated inspection',
+      'real-time monitoring'
+    ],
+    metaDescription: 'Learn how computer vision technology is revolutionizing manufacturing quality control with real-time defect detection and automated inspection systems.',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'Manufacturing industries are experiencing a paradigm shift with the integration of computer vision and artificial intelligence. Traditional quality control methods, which relied heavily on manual inspection, are being replaced by intelligent systems that can detect defects in real-time with unprecedented accuracy and speed.'
+      },
+      {
+        type: 'heading',
+        content: 'The Evolution of Quality Control'
+      },
+      {
+        type: 'paragraph',
+        content: 'Traditional quality control processes have long been the bottleneck in manufacturing operations. Human inspectors, while skilled, are limited by fatigue, inconsistency, and the inability to process information at the speed of modern production lines. Computer vision technology addresses these limitations by providing consistent, tireless, and incredibly fast inspection capabilities.'
+      },
+      {
+        type: 'stats',
+        statsData: [
+          {
+            value: '99.5%',
+            label: 'Defect detection accuracy with AI vision systems',
+            icon: 'Target'
+          },
+          {
+            value: '85%',
+            label: 'Reduction in manual inspection costs',
+            icon: 'DollarSign'
+          },
+          {
+            value: '10x',
+            label: 'Faster inspection speed compared to manual methods',
+            icon: 'Zap'
+          }
+        ]
+      },
+      {
+        type: 'heading',
+        content: 'Key Technologies Driving the Revolution'
+      },
+      {
+        type: 'subheading',
+        content: 'Deep Learning Models'
+      },
+      {
+        type: 'paragraph',
+        content: 'Modern computer vision systems leverage advanced deep learning models like YOLOv8 (You Only Look Once) for real-time object detection and classification. These models can identify defects, anomalies, and quality issues with remarkable precision, learning from vast datasets to improve their accuracy over time.'
+      },
+      {
+        type: 'subheading',
+        content: 'Framework Integration'
+      },
+      {
+        type: 'list',
+        items: [
+          'TensorFlow: Provides robust machine learning infrastructure for training and deploying vision models',
+          'PyTorch: Offers flexible deep learning capabilities for custom model development',
+          'OpenCV: Delivers comprehensive computer vision tools for image processing and analysis',
+          'Edge Computing: Enables real-time processing directly on production lines'
+        ]
+      },
+      {
+        type: 'heading',
+        content: 'Real-World Applications'
+      },
+      {
+        type: 'subheading',
+        content: 'Textile Manufacturing'
+      },
+      {
+        type: 'paragraph',
+        content: 'In textile manufacturing, computer vision systems can detect fabric flaws, color variations, and pattern misalignments at production speed. These systems identify defects that might be missed by human inspectors, ensuring consistent quality across large production runs.'
+      },
+      {
+        type: 'subheading',
+        content: 'Electronics Assembly'
+      },
+      {
+        type: 'paragraph',
+        content: 'Electronics manufacturers use computer vision to inspect circuit boards, verify component placement, and detect soldering defects. The technology can identify microscopic issues that could lead to product failures, significantly improving reliability.'
+      },
+      {
+        type: 'subheading',
+        content: 'Automotive Industry'
+      },
+      {
+        type: 'paragraph',
+        content: 'Automotive manufacturers employ computer vision for paint quality inspection, weld verification, and assembly validation. These systems ensure that every vehicle meets strict quality standards before leaving the production line.'
+      },
+      {
+        type: 'heading',
+        content: 'Benefits of AI-Powered Quality Control'
+      },
+      {
+        type: 'icon-list',
+        items: [
+          'Consistent Quality: Eliminates human variability and fatigue-related errors',
+          'Real-Time Feedback: Enables immediate correction of production issues',
+          'Cost Reduction: Reduces waste, rework, and warranty claims',
+          'Scalability: Easily adapts to different products and production volumes',
+          'Data Insights: Provides valuable analytics for continuous improvement'
+        ]
+      },
+      {
+        type: 'heading',
+        content: 'Implementation Considerations'
+      },
+      {
+        type: 'paragraph',
+        content: 'Successful implementation of computer vision quality control systems requires careful planning and expertise. Factors such as lighting conditions, camera positioning, model training, and integration with existing systems all play crucial roles in achieving optimal results.'
+      },
+      {
+        type: 'heading',
+        content: 'The Future of Manufacturing Quality Control'
+      },
+      {
+        type: 'paragraph',
+        content: 'As computer vision technology continues to advance, we can expect even more sophisticated applications. Future systems will incorporate predictive analytics, multi-modal sensing, and advanced AI algorithms to not only detect current defects but also predict potential quality issues before they occur.'
+      },
+      {
+        type: 'quote',
+        content: 'Computer vision is not just changing how we inspect products; it\'s transforming how we think about quality, efficiency, and the future of manufacturing.'
+      }
+    ]
+  },
+  {
     id: '6',
     title: 'Wearable Safety Tech: Protecting Workers While Delivering Real ROI',
     slug: 'wearable-safety-tech-protecting-workers-roi',
@@ -385,9 +531,9 @@ export const blogPosts: BlogPost[] = [
     id: '3',
     title: 'From Idea to Launch: Our Smart Product Development Process',
     slug: 'from-idea-to-launch-development-process',
-    excerpt: 'Take a behind-the-scenes look at how WRLDS transforms ideas into market-ready smart products through our proven 5-step development process.',
+    excerpt: 'Take a behind-the-scenes look at how AIROTIX transforms ideas into market-ready computer vision solutions through our proven 5-step development process.',
     date: 'May 15, 2025',
-    author: 'WRLDS Technologies',
+    author: 'AIROTIX Technologies',
     category: 'Process',
     imageUrl: '/lovable-uploads/5262afdb-dd24-4d5e-be66-7c6717adbca9.png',
     keywords: [
@@ -401,11 +547,11 @@ export const blogPosts: BlogPost[] = [
       'textile development',
       'smart textiles'
     ],
-    metaDescription: 'Learn about WRLDS proven 5-step process for developing smart products from initial concept to market launch. Discover how we turn ideas into reality.',
+    metaDescription: 'Learn about AIROTIX proven 5-step process for developing computer vision solutions from initial concept to market launch. Discover how we turn ideas into reality.',
     content: [
       {
         type: 'paragraph',
-        content: 'At WRLDS, we simplify the journey from an idea to a finished smart product. Whether you\'re starting from scratch or already have a clear concept ready to scale, we\'re here to support you exactly where you need us.'
+        content: 'At AIROTIX, we simplify the journey from an idea to a finished computer vision solution. Whether you\'re starting from scratch or already have a clear concept ready to scale, we\'re here to support you exactly where you need us.'
       },
       {
         type: 'paragraph',
@@ -465,11 +611,11 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'paragraph',
-        content: 'Finally, it\'s launch day. You introduce your smart glove, thoroughly tested and production-ready, to the market. WRLDS provides ongoing support to ensure a smooth launch—from technical documentation to supporting the app\'s release.'
+        content: 'Finally, it\'s launch day. You introduce your smart product, thoroughly tested and production-ready, to the market. AIROTIX provides ongoing support to ensure a smooth launch—from technical documentation to supporting the app\'s release.'
       },
       {
         type: 'heading',
-        content: 'Why Choose WRLDS?'
+        content: 'Why Choose AIROTIX?'
       },
       {
         type: 'paragraph',
@@ -496,7 +642,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'ai-powered-uniforms-emergency-alerts',
     excerpt: 'Explore how AI-integrated uniforms are revolutionizing emergency response by providing real-time health monitoring and automated alert systems for first responders and industrial workers.',
     date: 'May 8, 2025',
-    author: 'WRLDS Technologies',
+    author: 'AIROTIX Technologies',
     category: 'Innovation',
     imageUrl: '/lovable-uploads/4187f423-ba69-4043-be76-c43098488348.png',
     keywords: [
@@ -564,7 +710,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'sensor-integrated-textiles-trend',
     excerpt: 'Discover how sensor-integrated textiles are transforming industries from healthcare to sports, creating new possibilities for smart, responsive products.',
     date: 'May 2, 2025',
-    author: 'WRLDS Technologies',
+    author: 'AIROTIX Technologies',
     category: 'Technology',
     imageUrl: '/lovable-uploads/48ecf6e2-5a98-4a9d-af6f-ae2265cd4098.png',
     keywords: [

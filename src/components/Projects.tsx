@@ -8,52 +8,49 @@ import { useIsMobile } from "@/hooks/use-mobile";
 const projects = [
   {
     id: 1,
-    title: "Manufacturing Quality Control",
-    brand: "Industrial Automation Solutions",
-    description: "Real-time defect detection system for textile manufacturing, identifying fabric flaws, color variations, and pattern misalignments with 99.5% accuracy.",
-    tags: ["Manufacturing", "Quality Control", "AI Vision", "Real-time Detection"],
+    title: "Real-Time Textile Defect Detection",
+    brand: "Textiles & Garments",
+    description: "High-FPS cameras over the line + YOLOv8 detection on NVIDIA Jetson; on-screen overlays highlight defects (holes, stains, misweaves); automatic rejection markers; dashboard with heatmaps and shift reports.",
+    tags: ["Computer Vision", "YOLOv8", "NVIDIA Jetson", "Real-time Detection"],
     imageUrl: "/lovable-uploads/93ab0638-8190-4ccf-897f-21fda7f4f5ad.png",
     isFeatured: true,
-    link: "/projects/manufacturing",
+    link: "/services",
+    outcomes: [
+      "30–60% fewer escapes (missed defects)",
+      "20–40% less rework/scrap",
+      "<1s alert latency at production speeds"
+    ],
     details: `
-      Advanced computer vision system deployed on production lines to automatically detect defects in textile manufacturing. Uses YOLOv8 and custom-trained models to identify scratches, holes, color inconsistencies, and pattern deviations in real-time, reducing manual inspection costs by 85% and improving quality consistency.
+      Manual inspectors miss subtle defects at line speed; high rework and customer returns. Our solution uses high-FPS cameras with YOLOv8 detection on NVIDIA Jetson for real-time defect identification.
     `
   },
   {
     id: 2,
-    title: "Smart Surveillance Analytics",
-    brand: "Security Technology Leader",
-    description: "AI-powered surveillance system that analyzes behavior patterns, counts objects, and detects anomalies in real-time across multiple camera feeds.",
-    tags: ["Surveillance", "Behavior Analysis", "Object Detection", "Security"],
+    title: "AI Helpdesk Triage for IT/Operations",
+    brand: "IT Services & Customer Support",
+    description: "LLM agent integrated with Jira/ServiceDesk + Slack/Teams that auto-classifies priority/severity, assigns to the right team, extracts key fields, and drafts first responses with knowledge-base suggestions.",
+    tags: ["AI Automations", "LLM", "Jira Integration", "Workflow Automation"],
     imageUrl: "/lovable-uploads/b0622048-17b4-4c75-a3f0-6c9e17de1d09.png",
-    link: "/projects/surveillance"
+    link: "/services",
+    outcomes: [
+      "35–60% faster time-to-first-response",
+      "25–45% fewer handoffs and misroutes",
+      "Agent hours saved for complex issues"
+    ]
   },
   {
     id: 3,
-    title: "Packaging Inspection System",
-    brand: "Global Packaging Corporation",
-    description: "Automated visual inspection for packaging lines, detecting label placement errors, seal quality issues, and product positioning with machine learning.",
-    tags: ["Packaging", "Automated Inspection", "Machine Learning", "Quality Assurance"],
-    imageUrl: "/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png",
-    link: "/projects/packaging"
-  },
-  {
-    id: 4,
-    title: "Warehouse Automation Vision",
-    brand: "Logistics Technology Provider",
-    description: "Computer vision system for warehouse automation, enabling robotic sorting, inventory tracking, and damage detection in logistics operations.",
-    tags: ["Warehouse", "Automation", "Robotic Vision", "Logistics"],
+    title: "Smart Warehouse Counting & Inventory Visibility",
+    brand: "Logistics & 3PL Distribution",
+    description: "Ceiling/aisle cameras with object detection & tracking; counts pallets/boxes per zone; React dashboard shows live counts, dwell time, and bottlenecks; Flutter app for supervisors; webhook to ERP/WMS.",
+    tags: ["Computer Vision + Apps", "React Dashboard", "Flutter App", "ERP Integration"],
     imageUrl: "/lovable-uploads/c30e0487-2fa0-41d1-9a0b-699cb2855388.png",
-    link: "/projects/warehouse"
-  },
-  {
-    id: 5,
-    title: "Medical Device Inspection",
-    brand: "Healthcare Technology Innovator",
-    description: "Precision computer vision for medical device manufacturing, ensuring component accuracy and detecting microscopic defects in critical healthcare equipment.",
-    tags: ["Healthcare", "Medical Devices", "Precision Inspection", "Compliance"],
-    imageUrl: "/lovable-uploads/d5ce901e-2ce0-4f2a-bce1-f0ca5d6192df.png",
-    link: "/projects/medical"
+    link: "/services",
+    outcomes: [
+      "Automatic, continuous counts (no shutdown for physical counts)",
+      "10–25% throughput uplift from bottleneck visibility",
+      "Fewer write-offs via real-time discrepancies"
+    ]
   }
 ];
 
@@ -129,14 +126,14 @@ const Projects = () => {
   return <section id="projects" ref={projectsRef} className="bg-white py-[50px] w-full">
       <div className="w-full px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className={`text-center mb-10 max-w-3xl mx-auto transition-all duration-1000 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <div className="inline-block mb-2 px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-sm font-medium">
-            Customer Cases
+          <div className="inline-block mb-2 px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm font-medium">
+            Real-World Use Cases
           </div>
           <h2 className="text-3xl font-bold mb-3">
-            From Vision to Intelligence
+            Proven Results Across Industries
           </h2>
           <p className="text-gray-600">
-            Explore how our computer vision technology is transforming industries with intelligent automation solutions tailored to specific operational needs.
+            See how AIROTIX transforms cameras, data, and workflows into measurable business outcomes—fewer defects, faster decisions, safer operations, and smarter products.
           </p>
           {isMobile && (
             <div className="flex items-center justify-center mt-4 animate-pulse-slow">

@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
-              <img src="/lovable-uploads/7d120ee6-3614-4b75-9c35-716d54490d67.png" alt="AIROTIX Technologies Logo" className={cn("h-8 w-auto", isScrolled ? "" : "brightness-0 invert")} />
+              <img src="/lovable-uploads/airotix-logo.svg" alt="AIROTIX Technologies Logo" className="h-8 w-auto text-white" />
             </Link>
           </div>
           
@@ -73,43 +73,11 @@ const Navbar = () => {
                 </NavigationMenuItem>
                 
                 <NavigationMenuItem>
-                  <NavigationMenuTrigger className={cn(isScrolled ? "text-gray-700 hover:text-gray-900" : "text-gray-100 hover:text-white bg-transparent hover:bg-gray-800")}>
-                    Customer Cases
-                  </NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    <ul className="grid gap-3 p-4 w-[400px]">
-                      <li>
-                        <Link to="/projects/manufacturing" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Manufacturing Quality Control</div>
-                          <p className="text-sm text-gray-500">AI-powered defect detection systems</p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/projects/surveillance" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Smart Surveillance</div>
-                          <p className="text-sm text-gray-500">Intelligent monitoring and behavior analysis</p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/projects/packaging" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Packaging Inspection</div>
-                          <p className="text-sm text-gray-500">Automated visual quality control</p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/projects/warehouse" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Warehouse Automation</div>
-                          <p className="text-sm text-gray-500">Computer vision for logistics</p>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/projects/medical" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Medical Device Inspection</div>
-                          <p className="text-sm text-gray-500">Precision quality control for healthcare</p>
-                        </Link>
-                      </li>
-                    </ul>
-                  </NavigationMenuContent>
+                  <Link to="/services">
+                    <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), isScrolled ? "text-gray-700 hover:text-gray-900" : "text-gray-100 hover:text-white bg-transparent hover:bg-gray-800")}>
+                      Services
+                    </NavigationMenuLink>
+                  </Link>
                 </NavigationMenuItem>
                 
                 <NavigationMenuItem>
@@ -188,12 +156,12 @@ const Navbar = () => {
             About Us
           </Link>
           
-          {/* Simplified Customer Cases - no dropdown */}
-          <Link to="/projects/manufacturing" className={cn("block px-3 py-1.5 rounded-md text-sm", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
+          {/* Simplified Services - no dropdown */}
+          <Link to="/services" className={cn("block px-3 py-1.5 rounded-md text-sm", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
             setIsMenuOpen(false);
             window.scrollTo(0, 0);
           }}>
-            Customer Cases
+            Services
           </Link>
           
           {/* Simplified Learn More - no dropdown */}

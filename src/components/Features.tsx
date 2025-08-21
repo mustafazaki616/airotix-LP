@@ -24,26 +24,26 @@ const Features = () => {
   const features = [
     {
       icon: <Activity className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Quality Control",
-      description: "Real-time defect detection on production lines using computer vision to identify scratches, misprints, and misalignments.",
+      title: "Real-Time Defect Detection",
+      description: "Analyze products on moving production lines and instantly detect defects such as scratches, misprints, holes, or misalignments. Reduces waste, saves costs, and ensures high product quality.",
       image: "/lovable-uploads/48e540e5-6a25-44e4-b3f7-80f3bfc2777a.png"
     },
     {
       icon: <Shield className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Surveillance Analytics",
-      description: "Intelligent monitoring systems that detect unusual behavior, count objects, and analyze patterns in real-time.",
+      title: "AI-Powered Quality Control",
+      description: "Consistent and reliable monitoring systems that ensure every product meets desired quality standards, reducing human error and providing automated inspection capabilities.",
       image: "/lovable-uploads/48ecf6e2-5a98-4a9d-af6f-ae2265cd4098.png"
     },
     {
-      icon: <HardHat className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Manufacturing Vision",
-      description: "AI-powered visual inspection systems for textiles, packaging, and industrial processes with instant feedback.",
+      icon: <Factory className="w-10 h-10 text-white transition-transform duration-300 transform" />,
+      title: "Industrial Automation with Vision AI",
+      description: "Integrate computer vision into automated machinery and workflows, allowing industries to run faster, safer, and with greater accuracy across manufacturing processes.",
       image: "/lovable-uploads/cf8966e3-de0d-445f-9fbd-ee6c48daa7ff.png"
     },
     {
       icon: <Zap className="w-10 h-10 text-white transition-transform duration-300 transform" />,
-      title: "Process Automation",
-      description: "Computer vision integration with automated machinery for faster, safer, and more accurate industrial workflows.",
+      title: "Surveillance & Security Analytics",
+      description: "Intelligent monitoring solutions that detect unusual behavior, count people, track objects, and analyze patterns in real-time camera feeds for enhanced security.",
       image: "/lovable-uploads/6739bd63-bf19-4abd-bb23-0b613bbf7ac8.png"
     }
   ];
@@ -110,16 +110,16 @@ const Features = () => {
 
   const visionCaseStudies = [{
     image: "/lovable-uploads/843446fe-638e-4efb-b885-ed3cd505325a.png",
-    title: "Manufacturing Defect Detection",
-    description: "Real-time quality control systems that instantly identify product defects, scratches, and anomalies on production lines."
+    title: "Textiles & Manufacturing",
+    description: "Real-time defect detection for textiles, manufacturing, and packaging industries with instant quality assessment and automated sorting."
   }, {
     image: "/lovable-uploads/5463c9c5-0946-4280-a14b-17636ff69a98.png",
-    title: "Security & Surveillance",
-    description: "Intelligent monitoring solutions that detect unusual behavior, count people, and track objects in real-time."
+    title: "Surveillance & Security",
+    description: "Intelligent monitoring systems that detect unusual behavior, count people, track objects, and analyze patterns in real-time camera feeds."
   }, {
     image: "/lovable-uploads/c5f8ee24-9815-4ebe-b65d-6f3d449feb8b.png",
-    title: "Automated Inspection",
-    description: "AI-powered visual inspection systems for packaging, textiles, and industrial processes with instant decision-making."
+    title: "Industrial Process Automation",
+    description: "Computer vision integration with automated machinery for faster, safer, and more accurate industrial workflows and decision-making."
   }];
   const stepFlowItems = [{
     icon: <Microchip className="h-10 w-10 text-gray-700" />,
@@ -156,7 +156,7 @@ const Features = () => {
               Computer Vision Applications
             </div>
             <p className="text-gray-600 mt-4">
-              Our computer vision technology enables machines to see, understand, and make intelligent decisions from visual data across manufacturing, surveillance, and automation sectors.
+              AIROTIX specializes in computer vision solutions that help industries automate tasks that normally require human eyes. We teach machines to see, understand, and make decisions from visual data like images, videos, and live camera feeds.
             </p>
           </div>
           

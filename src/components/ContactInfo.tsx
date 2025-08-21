@@ -35,13 +35,13 @@ const ContactInfo = () => {
                   info@airotix.com
                 </a>
                 <a 
-                  href="https://www.linkedin.com/in/felixvonheland/" 
+                  href="https://www.linkedin.com/company/airotix/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-gray-700 hover:text-blue-600"
                 >
                   <Linkedin className="w-5 h-5 mr-2" />
-                  LinkedIn Profile
+                  AIROTIX LinkedIn
                 </a>
               </div>
             </div>

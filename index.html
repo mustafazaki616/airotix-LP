@@ -1,61 +1,51 @@
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <!-- Consent Management - Silktide -->
-    <script>
-      // Initialize the dataLayer
-      window.dataLayer = window.dataLayer || [];
-
-      // Create the gtag function that pushes to the dataLayer
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-
-      // Set consent defaults
-      gtag('consent', 'default', {
-        analytics_storage: localStorage.getItem('silktideCookieChoice_analytics') === 'true' ? 'granted' : 'denied',
-        ad_storage: localStorage.getItem('silktideCookieChoice_marketing') === 'true' ? 'granted' : 'denied',
-        ad_user_data: localStorage.getItem('silktideCookieChoice_marketing') === 'true' ? 'granted' : 'denied',
-        ad_personalization: localStorage.getItem('silktideCookieChoice_marketing') === 'true' ? 'granted' : 'denied',
-        functionality_storage: localStorage.getItem('silktideCookieChoice_necessary') === 'true' ? 'granted' : 'denied',
-        security_storage: localStorage.getItem('silktideCookieChoice_necessary') === 'true' ? 'granted' : 'denied'
-      });
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Consent Management -->
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "nxqjhqvgqf");
     </script>
+    
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TZ8DHWCH');</script>
-    <!-- End Google Tag Manager -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+    
     <link rel="icon" href="/lovable-uploads/39671993-1bb4-4bb6-8819-3ca5c07c0042.png" type="image/png" />
-    <title>WRLDS</title>
-    <meta name="description" content="WRLDS Technologies: Pioneering smart engineering solutions with textile sensors for sports, safety, and performance monitoring." />
-    <meta name="author" content="WRLDS Technologies" />
-    <meta name="keywords" content="smart textiles, wearable technology, textile sensors, sports tech, safety monitoring, performance analytics, manufacturing, development process" />
-    <meta property="og:title" content="WRLDS - Smart Textile Technology" />
-    <meta property="og:description" content="WRLDS Technologies: Pioneering smart engineering solutions across industries with intelligent textile sensors." />
-    <meta property="og:image" content="https://wrlds.com/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png" />
+    <title>AIROTIX</title>
+    <meta name="description" content="AIROTIX: Leading computer vision and AI automation company. We teach machines to see, understand, and make decisions from visual data for industrial automation." />
+    <meta name="author" content="AIROTIX Technologies" />
+    <meta name="keywords" content="computer vision, AI automation, defect detection, quality control, industrial automation, surveillance analytics, machine learning, YOLOv8, TensorFlow, PyTorch, OpenCV" />
+    <meta property="og:title" content="AIROTIX - Computer Vision Solutions" />
+    <meta property="og:description" content="AIROTIX Technologies: Leading computer vision and AI automation company specializing in industrial solutions and real-time defect detection." />
+    <meta property="og:image" content="https://airotix.com/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:url" content="https://wrlds.com" />
+    <meta property="og:url" content="https://airotix.com" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="WRLDS Technologies" />
+    <meta property="og:site_name" content="AIROTIX Technologies" />
     <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="WRLDS - Smart Textile Technology" />
-    <meta name="twitter:description" content="Pioneering smart engineering solutions with textile sensors." />
-    <meta name="twitter:image" content="https://wrlds.com/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png" />
-    <meta name="twitter:site" content="@wrldstechnologies" />
+    <meta name="twitter:title" content="AIROTIX - Computer Vision Solutions" />
+    <meta name="twitter:description" content="AIROTIX Technologies: Leading computer vision and AI automation company specializing in industrial solutions and real-time defect detection." />
+    <meta name="twitter:image" content="https://airotix.com/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png" />
+    <meta name="twitter:site" content="@airotix" />
     <!-- LinkedIn specific -->
-    <meta property="og:image:secure_url" content="https://wrlds.com/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png" />
+    <meta property="og:image:secure_url" content="https://airotix.com/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png" />
     <!-- Pinterest specific -->
-    <meta name="pinterest:description" content="WRLDS Technologies: Pioneering smart engineering solutions with textile sensors." />
-    <meta name="pinterest:image" content="https://wrlds.com/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png" />
-    <link rel="canonical" href="https://wrlds.com" />
+    <meta name="pinterest:description" content="AIROTIX Technologies: Leading computer vision and AI automation company specializing in industrial solutions and real-time defect detection." />
+    <meta name="pinterest:image" content="https://airotix.com/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png" />
+    <link rel="canonical" href="https://airotix.com" />
     <!-- Robots directive -->
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   </head>
