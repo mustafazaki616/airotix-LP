@@ -102,10 +102,10 @@ const WhyAirotix = () => {
               <Clock4 className="w-8 h-8 text-gray-700" />
             </div>
             <h3 className="text-gray-900 text-2xl lg:text-3xl font-bold mb-3">
-              <AnimatedCounter end={1} suffix="s" decimals={0} prefix="<" /> 
+              $<AnimatedCounter end={144.6} duration={2000} decimals={1} />B
             </h3>
             <p className="text-gray-700">
-              Alert latency at production speeds for real-time defect detection and quality control systems
+              Global market value of AI automations and computer vision solutions driving industrial transformation
             </p>
           </motion.div>
           
