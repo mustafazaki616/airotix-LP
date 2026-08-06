@@ -1,0 +1,365 @@
+import { createHotContext as __vite__createHotContext } from "/@vite/client";import.meta.hot = __vite__createHotContext("/src/components/Navbar.tsx");if (!window.$RefreshReg$) throw new Error("React refresh preamble was not loaded. Something is wrong.");
+const prevRefreshReg = window.$RefreshReg$;
+const prevRefreshSig = window.$RefreshSig$;
+window.$RefreshReg$ = RefreshRuntime.getRefreshReg("C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx");
+window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+
+import * as RefreshRuntime from "/@react-refresh";
+
+import __vite__cjsImport1_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=324baea8"; const _jsxDEV = __vite__cjsImport1_react_jsxDevRuntime["jsxDEV"];
+var _s = $RefreshSig$();
+import __vite__cjsImport2_react from "/node_modules/.vite/deps/react.js?v=324baea8"; const useState = __vite__cjsImport2_react["useState"]; const useEffect = __vite__cjsImport2_react["useEffect"];
+import { cn } from "/src/lib/utils.ts";
+import { Menu, X } from "/node_modules/.vite/deps/lucide-react.js?v=324baea8";
+import { motion } from "/node_modules/.vite/deps/framer-motion.js?v=324baea8";
+import { Link, useNavigate } from "/node_modules/.vite/deps/react-router-dom.js?v=324baea8";
+const Navbar = ()=>{
+    _s();
+    const [isScrolled, setIsScrolled] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    useEffect(()=>{
+        const handleScroll = ()=>{
+            if (window.scrollY > 10) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+        window.addEventListener('scroll', handleScroll);
+        return ()=>window.removeEventListener('scroll', handleScroll);
+    }, []);
+    const toggleMenu = ()=>{
+        setIsMenuOpen(!isMenuOpen);
+    };
+    const navigate = useNavigate();
+    const handleContactClick = ()=>{
+        setIsMenuOpen(false);
+        if (window.location.pathname === '/') {
+            const el = document.getElementById('contact');
+            if (el) {
+                el.scrollIntoView({
+                    behavior: 'smooth'
+                });
+                return;
+            }
+        }
+        navigate('/#contact');
+    };
+    const navLinks = [
+        {
+            to: '/',
+            label: 'Home'
+        },
+        {
+            to: '/about',
+            label: 'About Us'
+        },
+        {
+            to: '/industries',
+            label: 'Industries'
+        },
+        {
+            to: '/insights',
+            label: 'Insights'
+        },
+        {
+            to: '/case-studies',
+            label: 'Case Studies'
+        }
+    ];
+    const linkClass = (scrolled)=>cn("px-3 py-2 rounded-md text-sm font-medium transition-colors", scrolled ? "text-white hover:text-[#ffb86c] hover:bg-zinc-800" : "text-gray-100 hover:text-white hover:bg-gray-800");
+    const logoClass = cn("h-10 w-[150px] object-cover object-center transition-all duration-300");
+    return /*#__PURE__*/ _jsxDEV(motion.nav, {
+        "data-lov-id": "src\\components\\Navbar.tsx:56:4",
+        "data-lov-name": "motion.nav",
+        "data-component-path": "src\\components\\Navbar.tsx",
+        "data-component-line": "56",
+        "data-component-file": "Navbar.tsx",
+        "data-component-name": "motion.nav",
+        "data-component-content": "%7B%7D",
+        className: cn("fixed top-0 left-0 right-0 z-50 transition-all duration-300 w-full", isScrolled ? "bg-zinc-900 text-white shadow-sm" : "bg-black text-white"),
+        initial: {
+            opacity: 1,
+            y: 0
+        },
+        animate: {
+            opacity: 1,
+            y: 0
+        },
+        children: [
+            /*#__PURE__*/ _jsxDEV("div", {
+                "data-lov-id": "src\\components\\Navbar.tsx:64:6",
+                "data-lov-name": "div",
+                "data-component-path": "src\\components\\Navbar.tsx",
+                "data-component-line": "64",
+                "data-component-file": "Navbar.tsx",
+                "data-component-name": "div",
+                "data-component-content": "%7B%22className%22%3A%22w-full%20px-4%20sm%3Apx-6%20lg%3Apx-8%20mx-auto%22%7D",
+                className: "w-full px-4 sm:px-6 lg:px-8 mx-auto",
+                children: /*#__PURE__*/ _jsxDEV("div", {
+                    "data-lov-id": "src\\components\\Navbar.tsx:65:8",
+                    "data-lov-name": "div",
+                    "data-component-path": "src\\components\\Navbar.tsx",
+                    "data-component-line": "65",
+                    "data-component-file": "Navbar.tsx",
+                    "data-component-name": "div",
+                    "data-component-content": "%7B%22className%22%3A%22flex%20items-center%20justify-between%20h-16%20relative%22%7D",
+                    className: "flex items-center justify-between h-16 relative",
+                    children: [
+                        /*#__PURE__*/ _jsxDEV("div", {
+                            "data-lov-id": "src\\components\\Navbar.tsx:66:10",
+                            "data-lov-name": "div",
+                            "data-component-path": "src\\components\\Navbar.tsx",
+                            "data-component-line": "66",
+                            "data-component-file": "Navbar.tsx",
+                            "data-component-name": "div",
+                            "data-component-content": "%7B%22className%22%3A%22flex-shrink-0%20z-20%22%7D",
+                            className: "flex-shrink-0 z-20",
+                            children: /*#__PURE__*/ _jsxDEV(Link, {
+                                "data-lov-id": "src\\components\\Navbar.tsx:67:12",
+                                "data-lov-name": "Link",
+                                "data-component-path": "src\\components\\Navbar.tsx",
+                                "data-component-line": "67",
+                                "data-component-file": "Navbar.tsx",
+                                "data-component-name": "Link",
+                                "data-component-content": "%7B%22className%22%3A%22flex%20items-center%22%7D",
+                                to: "/",
+                                className: "flex items-center",
+                                children: /*#__PURE__*/ _jsxDEV("img", {
+                                    "data-lov-id": "src\\components\\Navbar.tsx:68:14",
+                                    "data-lov-name": "img",
+                                    "data-component-path": "src\\components\\Navbar.tsx",
+                                    "data-component-line": "68",
+                                    "data-component-file": "Navbar.tsx",
+                                    "data-component-name": "img",
+                                    "data-component-content": "%7B%7D",
+                                    src: "/lovable-uploads/airotix.logo.white.png",
+                                    alt: "AIROTIX Technologies Logo",
+                                    className: logoClass
+                                }, void 0, false, {
+                                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                                    lineNumber: 68,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                                lineNumber: 67,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                            lineNumber: 66,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDEV("div", {
+                            "data-lov-id": "src\\components\\Navbar.tsx:77:10",
+                            "data-lov-name": "div",
+                            "data-component-path": "src\\components\\Navbar.tsx",
+                            "data-component-line": "77",
+                            "data-component-file": "Navbar.tsx",
+                            "data-component-name": "div",
+                            "data-component-content": "%7B%22className%22%3A%22hidden%20md%3Aflex%20items-center%20gap-1%20z-20%22%7D",
+                            className: "hidden md:flex items-center gap-1 z-20",
+                            children: [
+                                navLinks.map((link)=>/*#__PURE__*/ _jsxDEV(Link, {
+                                        "data-lov-id": "src\\components\\Navbar.tsx:79:14",
+                                        "data-lov-name": "Link",
+                                        "data-component-path": "src\\components\\Navbar.tsx",
+                                        "data-component-line": "79",
+                                        "data-component-file": "Navbar.tsx",
+                                        "data-component-name": "Link",
+                                        "data-component-content": "%7B%7D",
+                                        to: link.to,
+                                        className: linkClass(isScrolled),
+                                        children: link.label
+                                    }, link.to, false, {
+                                        fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                                        lineNumber: 79,
+                                        columnNumber: 15
+                                    }, this)),
+                                /*#__PURE__*/ _jsxDEV("button", {
+                                    "data-lov-id": "src\\components\\Navbar.tsx:83:12",
+                                    "data-lov-name": "button",
+                                    "data-component-path": "src\\components\\Navbar.tsx",
+                                    "data-component-line": "83",
+                                    "data-component-file": "Navbar.tsx",
+                                    "data-component-name": "button",
+                                    "data-component-content": "%7B%22text%22%3A%22Get%20Started%22%7D",
+                                    onClick: handleContactClick,
+                                    className: cn("ml-2 px-4 py-2 rounded-md text-sm font-medium transition-colors", isScrolled ? "bg-[#cf4500] text-white hover:bg-[#ff5a1a]" : "bg-[#cf4500] text-white hover:bg-[#ff5a1a]"),
+                                    children: "Get Started"
+                                }, void 0, false, {
+                                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                                    lineNumber: 83,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                            lineNumber: 77,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ _jsxDEV("div", {
+                            "data-lov-id": "src\\components\\Navbar.tsx:93:10",
+                            "data-lov-name": "div",
+                            "data-component-path": "src\\components\\Navbar.tsx",
+                            "data-component-line": "93",
+                            "data-component-file": "Navbar.tsx",
+                            "data-component-name": "div",
+                            "data-component-content": "%7B%22className%22%3A%22md%3Ahidden%20z-20%22%7D",
+                            className: "md:hidden z-20",
+                            children: /*#__PURE__*/ _jsxDEV("button", {
+                                "data-lov-id": "src\\components\\Navbar.tsx:94:12",
+                                "data-lov-name": "button",
+                                "data-component-path": "src\\components\\Navbar.tsx",
+                                "data-component-line": "94",
+                                "data-component-file": "Navbar.tsx",
+                                "data-component-name": "button",
+                                "data-component-content": "%7B%7D",
+                                onClick: toggleMenu,
+                                className: cn("focus:outline-none p-2", isScrolled ? "text-gray-700" : "text-white"),
+                                children: isMenuOpen ? /*#__PURE__*/ _jsxDEV(X, {
+                                    "data-lov-id": "src\\components\\Navbar.tsx:95:28",
+                                    "data-lov-name": "X",
+                                    "data-component-path": "src\\components\\Navbar.tsx",
+                                    "data-component-line": "95",
+                                    "data-component-file": "Navbar.tsx",
+                                    "data-component-name": "X",
+                                    "data-component-content": "%7B%7D",
+                                    size: 24
+                                }, void 0, false, {
+                                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                                    lineNumber: 95,
+                                    columnNumber: 29
+                                }, this) : /*#__PURE__*/ _jsxDEV(Menu, {
+                                    "data-lov-id": "src\\components\\Navbar.tsx:95:46",
+                                    "data-lov-name": "Menu",
+                                    "data-component-path": "src\\components\\Navbar.tsx",
+                                    "data-component-line": "95",
+                                    "data-component-file": "Navbar.tsx",
+                                    "data-component-name": "Menu",
+                                    "data-component-content": "%7B%7D",
+                                    size: 24
+                                }, void 0, false, {
+                                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                                    lineNumber: 95,
+                                    columnNumber: 274
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                                lineNumber: 94,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                            lineNumber: 93,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                    lineNumber: 65,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                lineNumber: 64,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("div", {
+                "data-lov-id": "src\\components\\Navbar.tsx:102:6",
+                "data-lov-name": "div",
+                "data-component-path": "src\\components\\Navbar.tsx",
+                "data-component-line": "102",
+                "data-component-file": "Navbar.tsx",
+                "data-component-name": "div",
+                "data-component-content": "%7B%7D",
+                className: cn("md:hidden transition-all duration-300 overflow-hidden w-full", isMenuOpen ? "max-h-[28rem] opacity-100" : "max-h-0 opacity-0"),
+                children: /*#__PURE__*/ _jsxDEV("div", {
+                    "data-lov-id": "src\\components\\Navbar.tsx:103:8",
+                    "data-lov-name": "div",
+                    "data-component-path": "src\\components\\Navbar.tsx",
+                    "data-component-line": "103",
+                    "data-component-file": "Navbar.tsx",
+                    "data-component-name": "div",
+                    "data-component-content": "%7B%7D",
+                    className: cn("px-4 pt-3 pb-4 space-y-1 shadow-lg", isScrolled ? "bg-zinc-900 border-t border-zinc-700" : "bg-black border-t border-gray-800"),
+                    children: [
+                        navLinks.map((link)=>/*#__PURE__*/ _jsxDEV(Link, {
+                                "data-lov-id": "src\\components\\Navbar.tsx:105:12",
+                                "data-lov-name": "Link",
+                                "data-component-path": "src\\components\\Navbar.tsx",
+                                "data-component-line": "105",
+                                "data-component-file": "Navbar.tsx",
+                                "data-component-name": "Link",
+                                "data-component-content": "%7B%7D",
+                                to: link.to,
+                                className: cn("block px-3 py-2.5 rounded-md text-sm font-medium", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900"),
+                                onClick: ()=>{
+                                    setIsMenuOpen(false);
+                                    window.scrollTo(0, 0);
+                                },
+                                children: link.label
+                            }, link.to, false, {
+                                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                                lineNumber: 105,
+                                columnNumber: 13
+                            }, this)),
+                        /*#__PURE__*/ _jsxDEV("button", {
+                            "data-lov-id": "src\\components\\Navbar.tsx:114:10",
+                            "data-lov-name": "button",
+                            "data-component-path": "src\\components\\Navbar.tsx",
+                            "data-component-line": "114",
+                            "data-component-file": "Navbar.tsx",
+                            "data-component-name": "button",
+                            "data-component-content": "%7B%22text%22%3A%22Get%20Started%22%7D",
+                            onClick: handleContactClick,
+                            className: cn("block w-full text-left px-3 py-2.5 rounded-md text-sm font-medium mt-2", isScrolled ? "text-white bg-black hover:bg-gray-800" : "text-gray-900 bg-white hover:bg-gray-100"),
+                            children: "Get Started"
+                        }, void 0, false, {
+                            fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                            lineNumber: 114,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                    lineNumber: 103,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+                lineNumber: 102,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx",
+        lineNumber: 56,
+        columnNumber: 5
+    }, this);
+};
+_s(Navbar, "fpfzJgJCb8fTJzSnEviiHW3168E=", false, function() {
+    return [
+        useNavigate
+    ];
+});
+_c = Navbar;
+export default Navbar;
+var _c;
+$RefreshReg$(_c, "Navbar");
+
+
+window.$RefreshReg$ = prevRefreshReg;
+window.$RefreshSig$ = prevRefreshSig;
+
+RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {
+  RefreshRuntime.registerExportsForReactRefresh("C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx", currentExports);
+  import.meta.hot.accept((nextExports) => {
+    if (!nextExports) return;
+    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate("C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/Navbar.tsx", currentExports, nextExports);
+    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);
+  });
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUNBLFNBQVNBLFFBQVEsRUFBRUMsU0FBUyxRQUFRLFFBQU87QUFDM0MsU0FBU0MsRUFBRSxRQUFRLGNBQWE7QUFDaEMsU0FBU0MsSUFBSSxFQUFFQyxDQUFDLFFBQVEsZUFBYztBQUN0QyxTQUFTQyxNQUFNLFFBQVEsZ0JBQWU7QUFDdEMsU0FBU0MsSUFBSSxFQUFFQyxXQUFXLFFBQVEsbUJBQWtCO0FBRXBELE1BQU1DLFNBQVM7O0lBQ2IsTUFBTSxDQUFDQyxZQUFZQyxjQUFjLEdBQUdWLFNBQVM7SUFDN0MsTUFBTSxDQUFDVyxZQUFZQyxjQUFjLEdBQUdaLFNBQVM7SUFFN0NDLFVBQVU7UUFDUixNQUFNWSxlQUFlO1lBQ25CLElBQUlDLE9BQU9DLE9BQU8sR0FBRyxJQUFJO2dCQUN2QkwsY0FBYztZQUNoQixPQUFPO2dCQUNMQSxjQUFjO1lBQ2hCO1FBQ0Y7UUFDQUksT0FBT0UsZ0JBQWdCLENBQUMsVUFBVUg7UUFDbEMsT0FBTyxJQUFNQyxPQUFPRyxtQkFBbUIsQ0FBQyxVQUFVSjtJQUNwRCxHQUFHLEVBQUU7SUFFTCxNQUFNSyxhQUFhO1FBQ2pCTixjQUFjLENBQUNEO0lBQ2pCO0lBRUEsTUFBTVEsV0FBV1o7SUFFakIsTUFBTWEscUJBQXFCO1FBQ3pCUixjQUFjO1FBQ2QsSUFBSUUsT0FBT08sUUFBUSxDQUFDQyxRQUFRLEtBQUssS0FBSztZQUNwQyxNQUFNQyxLQUFLQyxTQUFTQyxjQUFjLENBQUM7WUFDbkMsSUFBSUYsSUFBSTtnQkFBRUEsR0FBR0csY0FBYyxDQUFDO29CQUFFQyxVQUFVO2dCQUFTO2dCQUFJO1lBQVE7UUFDL0Q7UUFDQVIsU0FBUztJQUNYO0lBRUEsTUFBTVMsV0FBVztRQUNmO1lBQUVDLElBQUk7WUFBS0MsT0FBTztRQUFPO1FBQ3pCO1lBQUVELElBQUk7WUFBVUMsT0FBTztRQUFXO1FBQ2xDO1lBQUVELElBQUk7WUFBZUMsT0FBTztRQUFhO1FBQ3pDO1lBQUVELElBQUk7WUFBYUMsT0FBTztRQUFXO1FBQ3JDO1lBQUVELElBQUk7WUFBaUJDLE9BQU87UUFBZTtLQUM5QztJQUVELE1BQU1DLFlBQVksQ0FBQ0MsV0FDakI5QixHQUFHLDhEQUNEOEIsV0FBVyxzREFBc0Q7SUFFckUsTUFBTUMsWUFBWS9CLEdBQ2hCO0lBR0YscUJBQ0UsUUFBQ0csT0FBTzZCLEdBQUU7UUFBQUMsZUFBQTtRQUFBQyxpQkFBQTtRQUFBQyx1QkFBQTtRQUFBQyx1QkFBQTtRQUFBQyx1QkFBQTtRQUFBQyx1QkFBQTtRQUFBQywwQkFBQTtRQUNSQyxXQUFXeEMsR0FDVCxzRUFDQU8sYUFBYSxxQ0FBcUM7UUFFcERrQyxTQUFTO1lBQUVDLFNBQVM7WUFBR0MsR0FBRztRQUFFO1FBQzVCQyxTQUFTO1lBQUVGLFNBQVM7WUFBR0MsR0FBRztRQUFFOzswQkFFNUIsUUFBQ0U7Z0JBQUVaLGVBQUE7Z0JBQUFDLGlCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsMEJBQUE7Z0JBQUVDLFdBQVU7MEJBQ2Isc0JBQUNLO29CQUFFWixlQUFBO29CQUFBQyxpQkFBQTtvQkFBQUMsdUJBQUE7b0JBQUFDLHVCQUFBO29CQUFBQyx1QkFBQTtvQkFBQUMsdUJBQUE7b0JBQUFDLDBCQUFBO29CQUFFQyxXQUFVOztzQ0FDYixRQUFDSzs0QkFBRVosZUFBQTs0QkFBQUMsaUJBQUE7NEJBQUFDLHVCQUFBOzRCQUFBQyx1QkFBQTs0QkFBQUMsdUJBQUE7NEJBQUFDLHVCQUFBOzRCQUFBQywwQkFBQTs0QkFBRUMsV0FBVTtzQ0FDYixzQkFBQ3BDO2dDQUFHNkIsZUFBQTtnQ0FBQUMsaUJBQUE7Z0NBQUFDLHVCQUFBO2dDQUFBQyx1QkFBQTtnQ0FBQUMsdUJBQUE7Z0NBQUFDLHVCQUFBO2dDQUFBQywwQkFBQTtnQ0FBRVosSUFBRztnQ0FBSWEsV0FBVTswQ0FDckIsc0JBQUNNO29DQUFFYixlQUFBO29DQUFBQyxpQkFBQTtvQ0FBQUMsdUJBQUE7b0NBQUFDLHVCQUFBO29DQUFBQyx1QkFBQTtvQ0FBQUMsdUJBQUE7b0NBQUFDLDBCQUFBO29DQUNEUSxLQUFJO29DQUNKQyxLQUFJO29DQUNKUixXQUFXVDs7Ozs7Ozs7Ozs7Ozs7OztzQ0FNakIsUUFBQ2M7NEJBQUVaLGVBQUE7NEJBQUFDLGlCQUFBOzRCQUFBQyx1QkFBQTs0QkFBQUMsdUJBQUE7NEJBQUFDLHVCQUFBOzRCQUFBQyx1QkFBQTs0QkFBQUMsMEJBQUE7NEJBQUVDLFdBQVU7O2dDQUNaZCxTQUFTdUIsR0FBRyxDQUFDLENBQUNDLHFCQUNiLFFBQUM5Qzt3Q0FBRzZCLGVBQUE7d0NBQUFDLGlCQUFBO3dDQUFBQyx1QkFBQTt3Q0FBQUMsdUJBQUE7d0NBQUFDLHVCQUFBO3dDQUFBQyx1QkFBQTt3Q0FBQUMsMEJBQUE7d0NBQWdCWixJQUFJdUIsS0FBS3ZCLEVBQUU7d0NBQUVhLFdBQVdYLFVBQVV0QjtrREFDbkQyQyxLQUFLdEIsS0FBSzt1Q0FERnNCLEtBQUt2QixFQUFFOzs7Ozs4Q0FJcEIsUUFBQ3dCO29DQUFLbEIsZUFBQTtvQ0FBQUMsaUJBQUE7b0NBQUFDLHVCQUFBO29DQUFBQyx1QkFBQTtvQ0FBQUMsdUJBQUE7b0NBQUFDLHVCQUFBO29DQUFBQywwQkFBQTtvQ0FDSmEsU0FBU2xDO29DQUNUc0IsV0FBV3hDLEdBQUcsbUVBQ1pPLGFBQWEsK0NBQStDOzhDQUNoRTs7Ozs7Ozs7Ozs7O3NDQU1GLFFBQUNzQzs0QkFBRVosZUFBQTs0QkFBQUMsaUJBQUE7NEJBQUFDLHVCQUFBOzRCQUFBQyx1QkFBQTs0QkFBQUMsdUJBQUE7NEJBQUFDLHVCQUFBOzRCQUFBQywwQkFBQTs0QkFBRUMsV0FBVTtzQ0FDYixzQkFBQ1c7Z0NBQUtsQixlQUFBO2dDQUFBQyxpQkFBQTtnQ0FBQUMsdUJBQUE7Z0NBQUFDLHVCQUFBO2dDQUFBQyx1QkFBQTtnQ0FBQUMsdUJBQUE7Z0NBQUFDLDBCQUFBO2dDQUFFYSxTQUFTcEM7Z0NBQVl3QixXQUFXeEMsR0FBRywwQkFBMEJPLGFBQWEsa0JBQWtCOzBDQUNqR0UsMkJBQWEsUUFBQ1A7b0NBQUErQixlQUFBO29DQUFBQyxpQkFBQTtvQ0FBQUMsdUJBQUE7b0NBQUFDLHVCQUFBO29DQUFBQyx1QkFBQTtvQ0FBQUMsdUJBQUE7b0NBQUFDLDBCQUFBO29DQUFFYyxNQUFNOzs7Ozt5REFBUyxRQUFDcEQ7b0NBQUdnQyxlQUFBO29DQUFBQyxpQkFBQTtvQ0FBQUMsdUJBQUE7b0NBQUFDLHVCQUFBO29DQUFBQyx1QkFBQTtvQ0FBQUMsdUJBQUE7b0NBQUFDLDBCQUFBO29DQUFFYyxNQUFNOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7MEJBT3BELFFBQUNSO2dCQUFFWixlQUFBO2dCQUFBQyxpQkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLDBCQUFBO2dCQUFFQyxXQUFXeEMsR0FBRyxnRUFBZ0VTLGFBQWEsOEJBQThCOzBCQUM1SCxzQkFBQ29DO29CQUFFWixlQUFBO29CQUFBQyxpQkFBQTtvQkFBQUMsdUJBQUE7b0JBQUFDLHVCQUFBO29CQUFBQyx1QkFBQTtvQkFBQUMsdUJBQUE7b0JBQUFDLDBCQUFBO29CQUFFQyxXQUFXeEMsR0FBRyxzQ0FBc0NPLGFBQWEseUNBQXlDOzt3QkFDNUdtQixTQUFTdUIsR0FBRyxDQUFDLENBQUNDLHFCQUNiLFFBQUM5QztnQ0FBRzZCLGVBQUE7Z0NBQUFDLGlCQUFBO2dDQUFBQyx1QkFBQTtnQ0FBQUMsdUJBQUE7Z0NBQUFDLHVCQUFBO2dDQUFBQyx1QkFBQTtnQ0FBQUMsMEJBQUE7Z0NBRUZaLElBQUl1QixLQUFLdkIsRUFBRTtnQ0FDWGEsV0FBV3hDLEdBQUcsb0RBQW9ETyxhQUFhLG1DQUFtQztnQ0FDbEg2QyxTQUFTO29DQUFRMUMsY0FBYztvQ0FBUUUsT0FBTzBDLFFBQVEsQ0FBQyxHQUFHO2dDQUFJOzBDQUU3REosS0FBS3RCLEtBQUs7K0JBTE5zQixLQUFLdkIsRUFBRTs7Ozs7c0NBUWhCLFFBQUN3Qjs0QkFBS2xCLGVBQUE7NEJBQUFDLGlCQUFBOzRCQUFBQyx1QkFBQTs0QkFBQUMsdUJBQUE7NEJBQUFDLHVCQUFBOzRCQUFBQyx1QkFBQTs0QkFBQUMsMEJBQUE7NEJBQ0phLFNBQVNsQzs0QkFDVHNCLFdBQVd4QyxHQUFHLDBFQUNaTyxhQUFhLDBDQUEwQztzQ0FDM0Q7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBT1Y7R0FySE1EOztRQW9CYUQ7OztLQXBCYkM7QUF1SE4sZUFBZUEsT0FBTSIsIm5hbWVzIjpbInVzZVN0YXRlIiwidXNlRWZmZWN0IiwiY24iLCJNZW51IiwiWCIsIm1vdGlvbiIsIkxpbmsiLCJ1c2VOYXZpZ2F0ZSIsIk5hdmJhciIsImlzU2Nyb2xsZWQiLCJzZXRJc1Njcm9sbGVkIiwiaXNNZW51T3BlbiIsInNldElzTWVudU9wZW4iLCJoYW5kbGVTY3JvbGwiLCJ3aW5kb3ciLCJzY3JvbGxZIiwiYWRkRXZlbnRMaXN0ZW5lciIsInJlbW92ZUV2ZW50TGlzdGVuZXIiLCJ0b2dnbGVNZW51IiwibmF2aWdhdGUiLCJoYW5kbGVDb250YWN0Q2xpY2siLCJsb2NhdGlvbiIsInBhdGhuYW1lIiwiZWwiLCJkb2N1bWVudCIsImdldEVsZW1lbnRCeUlkIiwic2Nyb2xsSW50b1ZpZXciLCJiZWhhdmlvciIsIm5hdkxpbmtzIiwidG8iLCJsYWJlbCIsImxpbmtDbGFzcyIsInNjcm9sbGVkIiwibG9nb0NsYXNzIiwibmF2IiwiZGF0YS1sb3YtaWQiLCJkYXRhLWxvdi1uYW1lIiwiZGF0YS1jb21wb25lbnQtcGF0aCIsImRhdGEtY29tcG9uZW50LWxpbmUiLCJkYXRhLWNvbXBvbmVudC1maWxlIiwiZGF0YS1jb21wb25lbnQtbmFtZSIsImRhdGEtY29tcG9uZW50LWNvbnRlbnQiLCJjbGFzc05hbWUiLCJpbml0aWFsIiwib3BhY2l0eSIsInkiLCJhbmltYXRlIiwiZGl2IiwiaW1nIiwic3JjIiwiYWx0IiwibWFwIiwibGluayIsImJ1dHRvbiIsIm9uQ2xpY2siLCJzaXplIiwic2Nyb2xsVG8iXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZXMiOlsiTmF2YmFyLnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyJcbmltcG9ydCB7IHVzZVN0YXRlLCB1c2VFZmZlY3QgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgeyBjbiB9IGZyb20gJ0AvbGliL3V0aWxzJztcbmltcG9ydCB7IE1lbnUsIFggfSBmcm9tIFwibHVjaWRlLXJlYWN0XCI7XG5pbXBvcnQgeyBtb3Rpb24gfSBmcm9tIFwiZnJhbWVyLW1vdGlvblwiO1xuaW1wb3J0IHsgTGluaywgdXNlTmF2aWdhdGUgfSBmcm9tICdyZWFjdC1yb3V0ZXItZG9tJztcblxuY29uc3QgTmF2YmFyID0gKCkgPT4ge1xuICBjb25zdCBbaXNTY3JvbGxlZCwgc2V0SXNTY3JvbGxlZF0gPSB1c2VTdGF0ZShmYWxzZSk7XG4gIGNvbnN0IFtpc01lbnVPcGVuLCBzZXRJc01lbnVPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTtcblxuICB1c2VFZmZlY3QoKCkgPT4ge1xuICAgIGNvbnN0IGhhbmRsZVNjcm9sbCA9ICgpID0+IHtcbiAgICAgIGlmICh3aW5kb3cuc2Nyb2xsWSA+IDEwKSB7XG4gICAgICAgIHNldElzU2Nyb2xsZWQodHJ1ZSk7XG4gICAgICB9IGVsc2Uge1xuICAgICAgICBzZXRJc1Njcm9sbGVkKGZhbHNlKTtcbiAgICAgIH1cbiAgICB9O1xuICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdzY3JvbGwnLCBoYW5kbGVTY3JvbGwpO1xuICAgIHJldHVybiAoKSA9PiB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcignc2Nyb2xsJywgaGFuZGxlU2Nyb2xsKTtcbiAgfSwgW10pO1xuXG4gIGNvbnN0IHRvZ2dsZU1lbnUgPSAoKSA9PiB7XG4gICAgc2V0SXNNZW51T3BlbighaXNNZW51T3Blbik7XG4gIH07XG5cbiAgY29uc3QgbmF2aWdhdGUgPSB1c2VOYXZpZ2F0ZSgpO1xuXG4gIGNvbnN0IGhhbmRsZUNvbnRhY3RDbGljayA9ICgpID0+IHtcbiAgICBzZXRJc01lbnVPcGVuKGZhbHNlKTtcbiAgICBpZiAod2luZG93LmxvY2F0aW9uLnBhdGhuYW1lID09PSAnLycpIHtcbiAgICAgIGNvbnN0IGVsID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2NvbnRhY3QnKTtcbiAgICAgIGlmIChlbCkgeyBlbC5zY3JvbGxJbnRvVmlldyh7IGJlaGF2aW9yOiAnc21vb3RoJyB9KTsgcmV0dXJuOyB9XG4gICAgfVxuICAgIG5hdmlnYXRlKCcvI2NvbnRhY3QnKTtcbiAgfTtcblxuICBjb25zdCBuYXZMaW5rcyA9IFtcbiAgICB7IHRvOiAnLycsIGxhYmVsOiAnSG9tZScgfSxcbiAgICB7IHRvOiAnL2Fib3V0JywgbGFiZWw6ICdBYm91dCBVcycgfSxcbiAgICB7IHRvOiAnL2luZHVzdHJpZXMnLCBsYWJlbDogJ0luZHVzdHJpZXMnIH0sXG4gICAgeyB0bzogJy9pbnNpZ2h0cycsIGxhYmVsOiAnSW5zaWdodHMnIH0sXG4gICAgeyB0bzogJy9jYXNlLXN0dWRpZXMnLCBsYWJlbDogJ0Nhc2UgU3R1ZGllcycgfSxcbiAgXTtcblxuICBjb25zdCBsaW5rQ2xhc3MgPSAoc2Nyb2xsZWQ6IGJvb2xlYW4pID0+XG4gICAgY24oXCJweC0zIHB5LTIgcm91bmRlZC1tZCB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRyYW5zaXRpb24tY29sb3JzXCIsXG4gICAgICBzY3JvbGxlZCA/IFwidGV4dC13aGl0ZSBob3Zlcjp0ZXh0LVsjZmZiODZjXSBob3ZlcjpiZy16aW5jLTgwMFwiIDogXCJ0ZXh0LWdyYXktMTAwIGhvdmVyOnRleHQtd2hpdGUgaG92ZXI6YmctZ3JheS04MDBcIik7XG5cbiAgY29uc3QgbG9nb0NsYXNzID0gY24oXG4gICAgXCJoLTEwIHctWzE1MHB4XSBvYmplY3QtY292ZXIgb2JqZWN0LWNlbnRlciB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0zMDBcIlxuICApO1xuXG4gIHJldHVybiAoXG4gICAgPG1vdGlvbi5uYXZcbiAgICAgIGNsYXNzTmFtZT17Y24oXG4gICAgICAgIFwiZml4ZWQgdG9wLTAgbGVmdC0wIHJpZ2h0LTAgei01MCB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0zMDAgdy1mdWxsXCIsXG4gICAgICAgIGlzU2Nyb2xsZWQgPyBcImJnLXppbmMtOTAwIHRleHQtd2hpdGUgc2hhZG93LXNtXCIgOiBcImJnLWJsYWNrIHRleHQtd2hpdGVcIlxuICAgICAgKX1cbiAgICAgIGluaXRpYWw9e3sgb3BhY2l0eTogMSwgeTogMCB9fVxuICAgICAgYW5pbWF0ZT17eyBvcGFjaXR5OiAxLCB5OiAwIH19XG4gICAgPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJ3LWZ1bGwgcHgtNCBzbTpweC02IGxnOnB4LTggbXgtYXV0b1wiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBoLTE2IHJlbGF0aXZlXCI+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4LXNocmluay0wIHotMjBcIj5cbiAgICAgICAgICAgIDxMaW5rIHRvPVwiL1wiIGNsYXNzTmFtZT1cImZsZXggaXRlbXMtY2VudGVyXCI+XG4gICAgICAgICAgICAgIDxpbWdcbiAgICAgICAgICAgICAgICBzcmM9XCIvbG92YWJsZS11cGxvYWRzL2Fpcm90aXgubG9nby53aGl0ZS5wbmdcIlxuICAgICAgICAgICAgICAgIGFsdD1cIkFJUk9USVggVGVjaG5vbG9naWVzIExvZ29cIlxuICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17bG9nb0NsYXNzfVxuICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgPC9MaW5rPlxuICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgey8qIERlc2t0b3AgTmF2aWdhdGlvbiAqL31cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImhpZGRlbiBtZDpmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSB6LTIwXCI+XG4gICAgICAgICAgICB7bmF2TGlua3MubWFwKChsaW5rKSA9PiAoXG4gICAgICAgICAgICAgIDxMaW5rIGtleT17bGluay50b30gdG89e2xpbmsudG99IGNsYXNzTmFtZT17bGlua0NsYXNzKGlzU2Nyb2xsZWQpfT5cbiAgICAgICAgICAgICAgICB7bGluay5sYWJlbH1cbiAgICAgICAgICAgICAgPC9MaW5rPlxuICAgICAgICAgICAgKSl9XG4gICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZUNvbnRhY3RDbGlja31cbiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtjbihcIm1sLTIgcHgtNCBweS0yIHJvdW5kZWQtbWQgdGV4dC1zbSBmb250LW1lZGl1bSB0cmFuc2l0aW9uLWNvbG9yc1wiLFxuICAgICAgICAgICAgICAgIGlzU2Nyb2xsZWQgPyBcImJnLVsjY2Y0NTAwXSB0ZXh0LXdoaXRlIGhvdmVyOmJnLVsjZmY1YTFhXVwiIDogXCJiZy1bI2NmNDUwMF0gdGV4dC13aGl0ZSBob3ZlcjpiZy1bI2ZmNWExYV1cIil9XG4gICAgICAgICAgICA+XG4gICAgICAgICAgICAgIEdldCBTdGFydGVkXG4gICAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgIHsvKiBNb2JpbGUgbWVudSBidXR0b24gKi99XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtZDpoaWRkZW4gei0yMFwiPlxuICAgICAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXt0b2dnbGVNZW51fSBjbGFzc05hbWU9e2NuKFwiZm9jdXM6b3V0bGluZS1ub25lIHAtMlwiLCBpc1Njcm9sbGVkID8gXCJ0ZXh0LWdyYXktNzAwXCIgOiBcInRleHQtd2hpdGVcIil9PlxuICAgICAgICAgICAgICB7aXNNZW51T3BlbiA/IDxYIHNpemU9ezI0fSAvPiA6IDxNZW51IHNpemU9ezI0fSAvPn1cbiAgICAgICAgICAgIDwvYnV0dG9uPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuXG4gICAgICB7LyogTW9iaWxlIE5hdmlnYXRpb24gTWVudSAqL31cbiAgICAgIDxkaXYgY2xhc3NOYW1lPXtjbihcIm1kOmhpZGRlbiB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0zMDAgb3ZlcmZsb3ctaGlkZGVuIHctZnVsbFwiLCBpc01lbnVPcGVuID8gXCJtYXgtaC1bMjhyZW1dIG9wYWNpdHktMTAwXCIgOiBcIm1heC1oLTAgb3BhY2l0eS0wXCIpfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9e2NuKFwicHgtNCBwdC0zIHBiLTQgc3BhY2UteS0xIHNoYWRvdy1sZ1wiLCBpc1Njcm9sbGVkID8gXCJiZy16aW5jLTkwMCBib3JkZXItdCBib3JkZXItemluYy03MDBcIiA6IFwiYmctYmxhY2sgYm9yZGVyLXQgYm9yZGVyLWdyYXktODAwXCIpfT5cbiAgICAgICAgICB7bmF2TGlua3MubWFwKChsaW5rKSA9PiAoXG4gICAgICAgICAgICA8TGlua1xuICAgICAgICAgICAgICBrZXk9e2xpbmsudG99XG4gICAgICAgICAgICAgIHRvPXtsaW5rLnRvfVxuICAgICAgICAgICAgICBjbGFzc05hbWU9e2NuKFwiYmxvY2sgcHgtMyBweS0yLjUgcm91bmRlZC1tZCB0ZXh0LXNtIGZvbnQtbWVkaXVtXCIsIGlzU2Nyb2xsZWQgPyBcInRleHQtZ3JheS03MDAgaG92ZXI6YmctZ3JheS01MFwiIDogXCJ0ZXh0LWdyYXktMjAwIGhvdmVyOmJnLWdyYXktOTAwXCIpfVxuICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7IHNldElzTWVudU9wZW4oZmFsc2UpOyB3aW5kb3cuc2Nyb2xsVG8oMCwgMCk7IH19XG4gICAgICAgICAgICA+XG4gICAgICAgICAgICAgIHtsaW5rLmxhYmVsfVxuICAgICAgICAgICAgPC9MaW5rPlxuICAgICAgICAgICkpfVxuICAgICAgICAgIDxidXR0b25cbiAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZUNvbnRhY3RDbGlja31cbiAgICAgICAgICAgIGNsYXNzTmFtZT17Y24oXCJibG9jayB3LWZ1bGwgdGV4dC1sZWZ0IHB4LTMgcHktMi41IHJvdW5kZWQtbWQgdGV4dC1zbSBmb250LW1lZGl1bSBtdC0yXCIsXG4gICAgICAgICAgICAgIGlzU2Nyb2xsZWQgPyBcInRleHQtd2hpdGUgYmctYmxhY2sgaG92ZXI6YmctZ3JheS04MDBcIiA6IFwidGV4dC1ncmF5LTkwMCBiZy13aGl0ZSBob3ZlcjpiZy1ncmF5LTEwMFwiKX1cbiAgICAgICAgICA+XG4gICAgICAgICAgICBHZXQgU3RhcnRlZFxuICAgICAgICAgIDwvYnV0dG9uPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgIDwvbW90aW9uLm5hdj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IE5hdmJhcjtcbiJdLCJmaWxlIjoiQzovVXNlcnMvRkJDL0Rlc2t0b3AvV09SSy9haXJvdGl4IHdlYnNpdGUvYWlyb3RpeC1MUC1tYWluL2Fpcm90aXgtTFAtbWFpbi9zcmMvY29tcG9uZW50cy9OYXZiYXIudHN4In0=

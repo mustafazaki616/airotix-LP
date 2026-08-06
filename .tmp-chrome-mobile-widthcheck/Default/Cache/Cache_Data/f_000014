@@ -1,0 +1,471 @@
+import { createHotContext as __vite__createHotContext } from "/@vite/client";import.meta.hot = __vite__createHotContext("/src/components/SEO.tsx");if (!window.$RefreshReg$) throw new Error("React refresh preamble was not loaded. Something is wrong.");
+const prevRefreshReg = window.$RefreshReg$;
+const prevRefreshSig = window.$RefreshSig$;
+window.$RefreshReg$ = RefreshRuntime.getRefreshReg("C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx");
+window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+
+import * as RefreshRuntime from "/@react-refresh";
+
+import __vite__cjsImport1_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=324baea8"; const _jsxDEV = __vite__cjsImport1_react_jsxDevRuntime["jsxDEV"];
+var _s = $RefreshSig$();
+import __vite__cjsImport2_react from "/node_modules/.vite/deps/react.js?v=324baea8"; const React = __vite__cjsImport2_react.__esModule ? __vite__cjsImport2_react.default : __vite__cjsImport2_react;
+import { Helmet } from "/node_modules/.vite/deps/react-helmet-async.js?v=324baea8";
+import { useLocation } from "/node_modules/.vite/deps/react-router-dom.js?v=324baea8";
+const SEO = ({ title = 'AIROTIX | AI Solutions & Automation', description = 'AIROTIX builds high-performance AI and computer vision systems that see, understand, and act in real time for enterprise automation.', type = 'website', name = 'AIROTIX Technologies', imageUrl = '/lovable-uploads/48ecf6e2-5a98-4a9d-af6f-ae2265cd4098.png', publishDate, modifiedDate, author, category, keywords = [
+    'computer vision',
+    'AI automation',
+    'industrial AI',
+    'factory defect detection',
+    'real-time inspection',
+    'YOLOv8',
+    'machine learning',
+    'automation solutions',
+    'AI for manufacturing',
+    'enterprise AI systems',
+    'AIROTIX'
+], isBlogPost = false })=>{
+    _s();
+    const location = useLocation();
+    const currentUrl = `https://airotix.com${location.pathname}`;
+    const absoluteImageUrl = imageUrl.startsWith('http') ? imageUrl : `https://airotix.com${imageUrl}`;
+    /* --- KEYWORD EXPANSION LOGIC (optional, smart enrichment) --- */ const enhancedKeywords = [
+        ...keywords,
+        'AI solutions company',
+        'AI automation services',
+        'AI computer vision consulting',
+        'top AI companies',
+        'enterprise automation'
+    ];
+    /* --- STRUCTURED DATA: WebSite + SearchAction (Google Search Box) --- */ const webSiteStructuredData = {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'AIROTIX Technologies',
+        url: 'https://airotix.com',
+        potentialAction: {
+            '@type': 'SearchAction',
+            target: 'https://airotix.com/search?q={search_term_string}',
+            'query-input': 'required name=search_term_string'
+        }
+    };
+    /* --- STRUCTURED DATA: Organization --- */ const organizationStructuredData = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'AIROTIX Technologies',
+        url: 'https://airotix.com',
+        logo: 'https://airotix.com/lovable-uploads/airotix.logo.white.png',
+        description: 'AIROTIX specializes in computer vision, AI automation, real-time inspection systems, and intelligent analytics for industrial and enterprise applications.',
+        sameAs: [
+            'https://www.linkedin.com/company/airotix',
+            'https://twitter.com/airotix'
+        ],
+        contactPoint: [
+            {
+                '@type': 'ContactPoint',
+                contactType: 'customer service',
+                email: 'airotix@gmail.com',
+                availableLanguage: [
+                    'en'
+                ]
+            }
+        ]
+    };
+    /* --- STRUCTURED DATA: BLOG POSTS (enhanced for Google Discover) --- */ const blogPostStructuredData = isBlogPost && publishDate ? {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        mainEntityOfPage: {
+            '@type': 'WebPage',
+            '@id': currentUrl
+        },
+        headline: title,
+        description,
+        image: absoluteImageUrl,
+        datePublished: publishDate,
+        dateModified: modifiedDate || publishDate,
+        author: {
+            '@type': 'Organization',
+            name: author || 'AIROTIX Technologies'
+        },
+        publisher: {
+            '@type': 'Organization',
+            name: 'AIROTIX Technologies',
+            logo: {
+                '@type': 'ImageObject',
+                url: 'https://airotix.com/lovable-uploads/airotix.logo.white.png',
+                width: 1024,
+                height: 1024
+            }
+        },
+        articleSection: category || 'AI & Computer Vision',
+        keywords: enhancedKeywords.join(', '),
+        isAccessibleForFree: true
+    } : null;
+    /* --- OPTIONAL: Add FAQs if needed (you can keep your existing ones) --- */ const keywordString = enhancedKeywords.join(', ');
+    return /*#__PURE__*/ _jsxDEV(Helmet, {
+        "data-lov-id": "src\\components\\SEO.tsx:136:4",
+        "data-lov-name": "Helmet",
+        "data-component-path": "src\\components\\SEO.tsx",
+        "data-component-line": "136",
+        "data-component-file": "SEO.tsx",
+        "data-component-name": "Helmet",
+        "data-component-content": "%7B%7D",
+        children: [
+            /*#__PURE__*/ _jsxDEV("title", {
+                "data-lov-id": "src\\components\\SEO.tsx:137:6",
+                "data-lov-name": "title",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "137",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "title",
+                "data-component-content": "%7B%7D",
+                children: title
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 137,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:139:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "139",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                name: "description",
+                content: description
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 139,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:140:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "140",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                name: "keywords",
+                content: keywordString
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 140,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:141:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "141",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                name: "robots",
+                content: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 141,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:142:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "142",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                name: "author",
+                content: author || name
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 142,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("link", {
+                "data-lov-id": "src\\components\\SEO.tsx:144:6",
+                "data-lov-name": "link",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "144",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "link",
+                "data-component-content": "%7B%7D",
+                rel: "canonical",
+                href: currentUrl
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 144,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:147:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "147",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                property: "og:type",
+                content: isBlogPost ? 'article' : type
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 147,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:148:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "148",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                property: "og:title",
+                content: title
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 148,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:149:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "149",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                property: "og:description",
+                content: description
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 149,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:150:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "150",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                property: "og:image",
+                content: absoluteImageUrl
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 150,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:151:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "151",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                property: "og:url",
+                content: currentUrl
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 151,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:152:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "152",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                property: "og:site_name",
+                content: "AIROTIX Technologies"
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 152,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:153:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "153",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                property: "og:locale",
+                content: "en_US"
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 153,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:156:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "156",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                name: "twitter:card",
+                content: "summary_large_image"
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 156,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:157:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "157",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                name: "twitter:title",
+                content: title
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 157,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:158:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "158",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                name: "twitter:description",
+                content: description
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 158,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:159:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "159",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                name: "twitter:image",
+                content: absoluteImageUrl
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 159,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:160:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "160",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                name: "twitter:creator",
+                content: "@airotix"
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 160,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("meta", {
+                "data-lov-id": "src\\components\\SEO.tsx:163:6",
+                "data-lov-name": "meta",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "163",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "meta",
+                "data-component-content": "%7B%7D",
+                name: "theme-color",
+                content: "#000000"
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 163,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("script", {
+                "data-lov-id": "src\\components\\SEO.tsx:166:6",
+                "data-lov-name": "script",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "166",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "script",
+                "data-component-content": "%7B%7D",
+                type: "application/ld+json",
+                children: JSON.stringify(webSiteStructuredData)
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 166,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ _jsxDEV("script", {
+                "data-lov-id": "src\\components\\SEO.tsx:170:6",
+                "data-lov-name": "script",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "170",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "script",
+                "data-component-content": "%7B%7D",
+                type: "application/ld+json",
+                children: JSON.stringify(organizationStructuredData)
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 170,
+                columnNumber: 7
+            }, this),
+            blogPostStructuredData && /*#__PURE__*/ _jsxDEV("script", {
+                "data-lov-id": "src\\components\\SEO.tsx:175:8",
+                "data-lov-name": "script",
+                "data-component-path": "src\\components\\SEO.tsx",
+                "data-component-line": "175",
+                "data-component-file": "SEO.tsx",
+                "data-component-name": "script",
+                "data-component-content": "%7B%7D",
+                type: "application/ld+json",
+                children: JSON.stringify(blogPostStructuredData)
+            }, void 0, false, {
+                fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+                lineNumber: 175,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx",
+        lineNumber: 136,
+        columnNumber: 5
+    }, this);
+};
+_s(SEO, "pkHmaVRPskBaU4tMJuJJpV42k1I=", false, function() {
+    return [
+        useLocation
+    ];
+});
+_c = SEO;
+export default SEO;
+var _c;
+$RefreshReg$(_c, "SEO");
+
+
+window.$RefreshReg$ = prevRefreshReg;
+window.$RefreshSig$ = prevRefreshSig;
+
+RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {
+  RefreshRuntime.registerExportsForReactRefresh("C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx", currentExports);
+  import.meta.hot.accept((nextExports) => {
+    if (!nextExports) return;
+    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate("C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/components/SEO.tsx", currentExports, nextExports);
+    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);
+  });
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBLE9BQU9BLFdBQVcsUUFBTztBQUN6QixTQUFTQyxNQUFNLFFBQVEscUJBQW9CO0FBQzNDLFNBQVNDLFdBQVcsUUFBUSxtQkFBa0I7QUFnQjlDLE1BQU1DLE1BQTBCLENBQUMsRUFDL0JDLFFBQVEscUNBQXFDLEVBQzdDQyxjQUFjLHNJQUFzSSxFQUNwSkMsT0FBTyxTQUFTLEVBQ2hCQyxPQUFPLHNCQUFzQixFQUM3QkMsV0FBVywyREFBMkQsRUFDdEVDLFdBQVcsRUFDWEMsWUFBWSxFQUNaQyxNQUFNLEVBQ05DLFFBQVEsRUFDUkMsV0FBVztJQUNUO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7SUFDQTtJQUNBO0lBQ0E7Q0FDRCxFQUNEQyxhQUFhLEtBQUksRUFDbEI7O0lBQ0MsTUFBTUMsV0FBV2I7SUFDakIsTUFBTWMsYUFBYSxDQUFDLG1CQUFtQixFQUFFRCxTQUFTRSxRQUFRLEVBQUU7SUFDNUQsTUFBTUMsbUJBQW1CVixTQUFTVyxVQUFVLENBQUMsVUFDekNYLFdBQ0EsQ0FBQyxtQkFBbUIsRUFBRUEsVUFBVTtJQUVwQyxnRUFBZ0UsR0FDaEUsTUFBTVksbUJBQW1CO1dBQ3BCUDtRQUNIO1FBQ0E7UUFDQTtRQUNBO1FBQ0E7S0FDRDtJQUVELHVFQUF1RSxHQUN2RSxNQUFNUSx3QkFBd0I7UUFDNUIsWUFBWTtRQUNaLFNBQVM7UUFDVGQsTUFBTTtRQUNOZSxLQUFLO1FBQ0xDLGlCQUFpQjtZQUNmLFNBQVM7WUFDVEMsUUFBUTtZQUNSLGVBQWU7UUFDakI7SUFDRjtJQUVBLHlDQUF5QyxHQUN6QyxNQUFNQyw2QkFBNkI7UUFDakMsWUFBWTtRQUNaLFNBQVM7UUFDVGxCLE1BQU07UUFDTmUsS0FBSztRQUNMSSxNQUFNO1FBQ05yQixhQUNFO1FBQ0ZzQixRQUFRO1lBQ047WUFDQTtTQUNEO1FBQ0RDLGNBQWM7WUFDWjtnQkFDRSxTQUFTO2dCQUNUQyxhQUFhO2dCQUNiQyxPQUFPO2dCQUNQQyxtQkFBbUI7b0JBQUM7aUJBQUk7WUFDMUI7U0FDRjtJQUNGO0lBRUEsc0VBQXNFLEdBQ3RFLE1BQU1DLHlCQUNKbEIsY0FBY0wsY0FDVjtRQUNFLFlBQVk7UUFDWixTQUFTO1FBQ1R3QixrQkFBa0I7WUFDaEIsU0FBUztZQUNULE9BQU9qQjtRQUNUO1FBQ0FrQixVQUFVOUI7UUFDVkM7UUFDQThCLE9BQU9qQjtRQUNQa0IsZUFBZTNCO1FBQ2Y0QixjQUFjM0IsZ0JBQWdCRDtRQUM5QkUsUUFBUTtZQUNOLFNBQVM7WUFDVEosTUFBTUksVUFBVTtRQUNsQjtRQUNBMkIsV0FBVztZQUNULFNBQVM7WUFDVC9CLE1BQU07WUFDTm1CLE1BQU07Z0JBQ0osU0FBUztnQkFDVEosS0FBSztnQkFDTGlCLE9BQU87Z0JBQ1BDLFFBQVE7WUFDVjtRQUNGO1FBQ0FDLGdCQUFnQjdCLFlBQVk7UUFDNUJDLFVBQVVPLGlCQUFpQnNCLElBQUksQ0FBQztRQUNoQ0MscUJBQXFCO0lBQ3ZCLElBQ0E7SUFFTiwwRUFBMEUsR0FFMUUsTUFBTUMsZ0JBQWdCeEIsaUJBQWlCc0IsSUFBSSxDQUFDO0lBRTVDLHFCQUNFLFFBQUN6QztRQUFLNEMsZUFBQTtRQUFBQyxpQkFBQTtRQUFBQyx1QkFBQTtRQUFBQyx1QkFBQTtRQUFBQyx1QkFBQTtRQUFBQyx1QkFBQTtRQUFBQywwQkFBQTs7MEJBQ0osUUFBQy9DO2dCQUFJeUMsZUFBQTtnQkFBQUMsaUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQywwQkFBQTswQkFBRy9DOzs7Ozs7MEJBRVIsUUFBQ2dEO2dCQUFHUCxlQUFBO2dCQUFBQyxpQkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLDBCQUFBO2dCQUFFNUMsTUFBSztnQkFBYzhDLFNBQVNoRDs7Ozs7OzBCQUNsQyxRQUFDK0M7Z0JBQUdQLGVBQUE7Z0JBQUFDLGlCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsMEJBQUE7Z0JBQUU1QyxNQUFLO2dCQUFXOEMsU0FBU1Q7Ozs7OzswQkFDL0IsUUFBQ1E7Z0JBQUdQLGVBQUE7Z0JBQUFDLGlCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsMEJBQUE7Z0JBQUU1QyxNQUFLO2dCQUFTOEMsU0FBUTs7Ozs7OzBCQUM1QixRQUFDRDtnQkFBR1AsZUFBQTtnQkFBQUMsaUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQywwQkFBQTtnQkFBRTVDLE1BQUs7Z0JBQVM4QyxTQUFTMUMsVUFBVUo7Ozs7OzswQkFFdkMsUUFBQytDO2dCQUFHVCxlQUFBO2dCQUFBQyxpQkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLDBCQUFBO2dCQUFFSSxLQUFJO2dCQUFZQyxNQUFNeEM7Ozs7OzswQkFHNUIsUUFBQ29DO2dCQUFHUCxlQUFBO2dCQUFBQyxpQkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLDBCQUFBO2dCQUFFTSxVQUFTO2dCQUFVSixTQUFTdkMsYUFBYSxZQUFZUjs7Ozs7OzBCQUMzRCxRQUFDOEM7Z0JBQUdQLGVBQUE7Z0JBQUFDLGlCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsMEJBQUE7Z0JBQUVNLFVBQVM7Z0JBQVdKLFNBQVNqRDs7Ozs7OzBCQUNuQyxRQUFDZ0Q7Z0JBQUdQLGVBQUE7Z0JBQUFDLGlCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsMEJBQUE7Z0JBQUVNLFVBQVM7Z0JBQWlCSixTQUFTaEQ7Ozs7OzswQkFDekMsUUFBQytDO2dCQUFHUCxlQUFBO2dCQUFBQyxpQkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLDBCQUFBO2dCQUFFTSxVQUFTO2dCQUFXSixTQUFTbkM7Ozs7OzswQkFDbkMsUUFBQ2tDO2dCQUFHUCxlQUFBO2dCQUFBQyxpQkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLDBCQUFBO2dCQUFFTSxVQUFTO2dCQUFTSixTQUFTckM7Ozs7OzswQkFDakMsUUFBQ29DO2dCQUFHUCxlQUFBO2dCQUFBQyxpQkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLDBCQUFBO2dCQUFFTSxVQUFTO2dCQUFlSixTQUFROzs7Ozs7MEJBQ3RDLFFBQUNEO2dCQUFHUCxlQUFBO2dCQUFBQyxpQkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLDBCQUFBO2dCQUFFTSxVQUFTO2dCQUFZSixTQUFROzs7Ozs7MEJBR25DLFFBQUNEO2dCQUFHUCxlQUFBO2dCQUFBQyxpQkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLDBCQUFBO2dCQUFFNUMsTUFBSztnQkFBZThDLFNBQVE7Ozs7OzswQkFDbEMsUUFBQ0Q7Z0JBQUdQLGVBQUE7Z0JBQUFDLGlCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsMEJBQUE7Z0JBQUU1QyxNQUFLO2dCQUFnQjhDLFNBQVNqRDs7Ozs7OzBCQUNwQyxRQUFDZ0Q7Z0JBQUdQLGVBQUE7Z0JBQUFDLGlCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsMEJBQUE7Z0JBQUU1QyxNQUFLO2dCQUFzQjhDLFNBQVNoRDs7Ozs7OzBCQUMxQyxRQUFDK0M7Z0JBQUdQLGVBQUE7Z0JBQUFDLGlCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsMEJBQUE7Z0JBQUU1QyxNQUFLO2dCQUFnQjhDLFNBQVNuQzs7Ozs7OzBCQUNwQyxRQUFDa0M7Z0JBQUdQLGVBQUE7Z0JBQUFDLGlCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsMEJBQUE7Z0JBQUU1QyxNQUFLO2dCQUFrQjhDLFNBQVE7Ozs7OzswQkFHckMsUUFBQ0Q7Z0JBQUdQLGVBQUE7Z0JBQUFDLGlCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsMEJBQUE7Z0JBQUU1QyxNQUFLO2dCQUFjOEMsU0FBUTs7Ozs7OzBCQUdqQyxRQUFDSztnQkFBS2IsZUFBQTtnQkFBQUMsaUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQywwQkFBQTtnQkFBRTdDLE1BQUs7MEJBQ1ZxRCxLQUFLQyxTQUFTLENBQUN2Qzs7Ozs7OzBCQUdsQixRQUFDcUM7Z0JBQUtiLGVBQUE7Z0JBQUFDLGlCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsMEJBQUE7Z0JBQUU3QyxNQUFLOzBCQUNWcUQsS0FBS0MsU0FBUyxDQUFDbkM7Ozs7OztZQUdqQk8sd0NBQ0MsUUFBQzBCO2dCQUFLYixlQUFBO2dCQUFBQyxpQkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLHVCQUFBO2dCQUFBQyx1QkFBQTtnQkFBQUMsdUJBQUE7Z0JBQUFDLDBCQUFBO2dCQUFFN0MsTUFBSzswQkFDVnFELEtBQUtDLFNBQVMsQ0FBQzVCOzs7Ozs7Ozs7Ozs7QUFLMUI7R0FsS003Qjs7UUF5QmFEOzs7S0F6QmJDO0FBb0tOLGVBQWVBLElBQUciLCJuYW1lcyI6WyJSZWFjdCIsIkhlbG1ldCIsInVzZUxvY2F0aW9uIiwiU0VPIiwidGl0bGUiLCJkZXNjcmlwdGlvbiIsInR5cGUiLCJuYW1lIiwiaW1hZ2VVcmwiLCJwdWJsaXNoRGF0ZSIsIm1vZGlmaWVkRGF0ZSIsImF1dGhvciIsImNhdGVnb3J5Iiwia2V5d29yZHMiLCJpc0Jsb2dQb3N0IiwibG9jYXRpb24iLCJjdXJyZW50VXJsIiwicGF0aG5hbWUiLCJhYnNvbHV0ZUltYWdlVXJsIiwic3RhcnRzV2l0aCIsImVuaGFuY2VkS2V5d29yZHMiLCJ3ZWJTaXRlU3RydWN0dXJlZERhdGEiLCJ1cmwiLCJwb3RlbnRpYWxBY3Rpb24iLCJ0YXJnZXQiLCJvcmdhbml6YXRpb25TdHJ1Y3R1cmVkRGF0YSIsImxvZ28iLCJzYW1lQXMiLCJjb250YWN0UG9pbnQiLCJjb250YWN0VHlwZSIsImVtYWlsIiwiYXZhaWxhYmxlTGFuZ3VhZ2UiLCJibG9nUG9zdFN0cnVjdHVyZWREYXRhIiwibWFpbkVudGl0eU9mUGFnZSIsImhlYWRsaW5lIiwiaW1hZ2UiLCJkYXRlUHVibGlzaGVkIiwiZGF0ZU1vZGlmaWVkIiwicHVibGlzaGVyIiwid2lkdGgiLCJoZWlnaHQiLCJhcnRpY2xlU2VjdGlvbiIsImpvaW4iLCJpc0FjY2Vzc2libGVGb3JGcmVlIiwia2V5d29yZFN0cmluZyIsImRhdGEtbG92LWlkIiwiZGF0YS1sb3YtbmFtZSIsImRhdGEtY29tcG9uZW50LXBhdGgiLCJkYXRhLWNvbXBvbmVudC1saW5lIiwiZGF0YS1jb21wb25lbnQtZmlsZSIsImRhdGEtY29tcG9uZW50LW5hbWUiLCJkYXRhLWNvbXBvbmVudC1jb250ZW50IiwibWV0YSIsImNvbnRlbnQiLCJsaW5rIiwicmVsIiwiaHJlZiIsInByb3BlcnR5Iiwic2NyaXB0IiwiSlNPTiIsInN0cmluZ2lmeSJdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlcyI6WyJTRU8udHN4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgeyBIZWxtZXQgfSBmcm9tICdyZWFjdC1oZWxtZXQtYXN5bmMnO1xuaW1wb3J0IHsgdXNlTG9jYXRpb24gfSBmcm9tICdyZWFjdC1yb3V0ZXItZG9tJztcblxuaW50ZXJmYWNlIFNFT1Byb3BzIHtcbiAgdGl0bGU/OiBzdHJpbmc7XG4gIGRlc2NyaXB0aW9uPzogc3RyaW5nO1xuICB0eXBlPzogc3RyaW5nO1xuICBuYW1lPzogc3RyaW5nO1xuICBpbWFnZVVybD86IHN0cmluZztcbiAgcHVibGlzaERhdGU/OiBzdHJpbmc7XG4gIG1vZGlmaWVkRGF0ZT86IHN0cmluZztcbiAgYXV0aG9yPzogc3RyaW5nO1xuICBjYXRlZ29yeT86IHN0cmluZztcbiAga2V5d29yZHM/OiBzdHJpbmdbXTtcbiAgaXNCbG9nUG9zdD86IGJvb2xlYW47XG59XG5cbmNvbnN0IFNFTzogUmVhY3QuRkM8U0VPUHJvcHM+ID0gKHtcbiAgdGl0bGUgPSAnQUlST1RJWCB8IEFJIFNvbHV0aW9ucyAmIEF1dG9tYXRpb24nLFxuICBkZXNjcmlwdGlvbiA9ICdBSVJPVElYIGJ1aWxkcyBoaWdoLXBlcmZvcm1hbmNlIEFJIGFuZCBjb21wdXRlciB2aXNpb24gc3lzdGVtcyB0aGF0IHNlZSwgdW5kZXJzdGFuZCwgYW5kIGFjdCBpbiByZWFsIHRpbWUgZm9yIGVudGVycHJpc2UgYXV0b21hdGlvbi4nLFxuICB0eXBlID0gJ3dlYnNpdGUnLFxuICBuYW1lID0gJ0FJUk9USVggVGVjaG5vbG9naWVzJyxcbiAgaW1hZ2VVcmwgPSAnL2xvdmFibGUtdXBsb2Fkcy80OGVjZjZlMi01YTk4LTRhOWQtYWY2Zi1hZTIyNjVjZDQwOTgucG5nJyxcbiAgcHVibGlzaERhdGUsXG4gIG1vZGlmaWVkRGF0ZSxcbiAgYXV0aG9yLFxuICBjYXRlZ29yeSxcbiAga2V5d29yZHMgPSBbXG4gICAgJ2NvbXB1dGVyIHZpc2lvbicsXG4gICAgJ0FJIGF1dG9tYXRpb24nLFxuICAgICdpbmR1c3RyaWFsIEFJJyxcbiAgICAnZmFjdG9yeSBkZWZlY3QgZGV0ZWN0aW9uJyxcbiAgICAncmVhbC10aW1lIGluc3BlY3Rpb24nLFxuICAgICdZT0xPdjgnLFxuICAgICdtYWNoaW5lIGxlYXJuaW5nJyxcbiAgICAnYXV0b21hdGlvbiBzb2x1dGlvbnMnLFxuICAgICdBSSBmb3IgbWFudWZhY3R1cmluZycsXG4gICAgJ2VudGVycHJpc2UgQUkgc3lzdGVtcycsXG4gICAgJ0FJUk9USVgnXG4gIF0sXG4gIGlzQmxvZ1Bvc3QgPSBmYWxzZVxufSkgPT4ge1xuICBjb25zdCBsb2NhdGlvbiA9IHVzZUxvY2F0aW9uKCk7XG4gIGNvbnN0IGN1cnJlbnRVcmwgPSBgaHR0cHM6Ly9haXJvdGl4LmNvbSR7bG9jYXRpb24ucGF0aG5hbWV9YDtcbiAgY29uc3QgYWJzb2x1dGVJbWFnZVVybCA9IGltYWdlVXJsLnN0YXJ0c1dpdGgoJ2h0dHAnKVxuICAgID8gaW1hZ2VVcmxcbiAgICA6IGBodHRwczovL2Fpcm90aXguY29tJHtpbWFnZVVybH1gO1xuXG4gIC8qIC0tLSBLRVlXT1JEIEVYUEFOU0lPTiBMT0dJQyAob3B0aW9uYWwsIHNtYXJ0IGVucmljaG1lbnQpIC0tLSAqL1xuICBjb25zdCBlbmhhbmNlZEtleXdvcmRzID0gW1xuICAgIC4uLmtleXdvcmRzLFxuICAgICdBSSBzb2x1dGlvbnMgY29tcGFueScsXG4gICAgJ0FJIGF1dG9tYXRpb24gc2VydmljZXMnLFxuICAgICdBSSBjb21wdXRlciB2aXNpb24gY29uc3VsdGluZycsXG4gICAgJ3RvcCBBSSBjb21wYW5pZXMnLFxuICAgICdlbnRlcnByaXNlIGF1dG9tYXRpb24nXG4gIF07XG5cbiAgLyogLS0tIFNUUlVDVFVSRUQgREFUQTogV2ViU2l0ZSArIFNlYXJjaEFjdGlvbiAoR29vZ2xlIFNlYXJjaCBCb3gpIC0tLSAqL1xuICBjb25zdCB3ZWJTaXRlU3RydWN0dXJlZERhdGEgPSB7XG4gICAgJ0Bjb250ZXh0JzogJ2h0dHBzOi8vc2NoZW1hLm9yZycsXG4gICAgJ0B0eXBlJzogJ1dlYlNpdGUnLFxuICAgIG5hbWU6ICdBSVJPVElYIFRlY2hub2xvZ2llcycsXG4gICAgdXJsOiAnaHR0cHM6Ly9haXJvdGl4LmNvbScsXG4gICAgcG90ZW50aWFsQWN0aW9uOiB7XG4gICAgICAnQHR5cGUnOiAnU2VhcmNoQWN0aW9uJyxcbiAgICAgIHRhcmdldDogJ2h0dHBzOi8vYWlyb3RpeC5jb20vc2VhcmNoP3E9e3NlYXJjaF90ZXJtX3N0cmluZ30nLFxuICAgICAgJ3F1ZXJ5LWlucHV0JzogJ3JlcXVpcmVkIG5hbWU9c2VhcmNoX3Rlcm1fc3RyaW5nJ1xuICAgIH1cbiAgfTtcblxuICAvKiAtLS0gU1RSVUNUVVJFRCBEQVRBOiBPcmdhbml6YXRpb24gLS0tICovXG4gIGNvbnN0IG9yZ2FuaXphdGlvblN0cnVjdHVyZWREYXRhID0ge1xuICAgICdAY29udGV4dCc6ICdodHRwczovL3NjaGVtYS5vcmcnLFxuICAgICdAdHlwZSc6ICdPcmdhbml6YXRpb24nLFxuICAgIG5hbWU6ICdBSVJPVElYIFRlY2hub2xvZ2llcycsXG4gICAgdXJsOiAnaHR0cHM6Ly9haXJvdGl4LmNvbScsXG4gICAgbG9nbzogJ2h0dHBzOi8vYWlyb3RpeC5jb20vbG92YWJsZS11cGxvYWRzL2Fpcm90aXgubG9nby53aGl0ZS5wbmcnLFxuICAgIGRlc2NyaXB0aW9uOlxuICAgICAgJ0FJUk9USVggc3BlY2lhbGl6ZXMgaW4gY29tcHV0ZXIgdmlzaW9uLCBBSSBhdXRvbWF0aW9uLCByZWFsLXRpbWUgaW5zcGVjdGlvbiBzeXN0ZW1zLCBhbmQgaW50ZWxsaWdlbnQgYW5hbHl0aWNzIGZvciBpbmR1c3RyaWFsIGFuZCBlbnRlcnByaXNlIGFwcGxpY2F0aW9ucy4nLFxuICAgIHNhbWVBczogW1xuICAgICAgJ2h0dHBzOi8vd3d3LmxpbmtlZGluLmNvbS9jb21wYW55L2Fpcm90aXgnLFxuICAgICAgJ2h0dHBzOi8vdHdpdHRlci5jb20vYWlyb3RpeCdcbiAgICBdLFxuICAgIGNvbnRhY3RQb2ludDogW1xuICAgICAge1xuICAgICAgICAnQHR5cGUnOiAnQ29udGFjdFBvaW50JyxcbiAgICAgICAgY29udGFjdFR5cGU6ICdjdXN0b21lciBzZXJ2aWNlJyxcbiAgICAgICAgZW1haWw6ICdhaXJvdGl4QGdtYWlsLmNvbScsXG4gICAgICAgIGF2YWlsYWJsZUxhbmd1YWdlOiBbJ2VuJ11cbiAgICAgIH1cbiAgICBdXG4gIH07XG5cbiAgLyogLS0tIFNUUlVDVFVSRUQgREFUQTogQkxPRyBQT1NUUyAoZW5oYW5jZWQgZm9yIEdvb2dsZSBEaXNjb3ZlcikgLS0tICovXG4gIGNvbnN0IGJsb2dQb3N0U3RydWN0dXJlZERhdGEgPVxuICAgIGlzQmxvZ1Bvc3QgJiYgcHVibGlzaERhdGVcbiAgICAgID8ge1xuICAgICAgICAgICdAY29udGV4dCc6ICdodHRwczovL3NjaGVtYS5vcmcnLFxuICAgICAgICAgICdAdHlwZSc6ICdBcnRpY2xlJyxcbiAgICAgICAgICBtYWluRW50aXR5T2ZQYWdlOiB7XG4gICAgICAgICAgICAnQHR5cGUnOiAnV2ViUGFnZScsXG4gICAgICAgICAgICAnQGlkJzogY3VycmVudFVybFxuICAgICAgICAgIH0sXG4gICAgICAgICAgaGVhZGxpbmU6IHRpdGxlLFxuICAgICAgICAgIGRlc2NyaXB0aW9uLFxuICAgICAgICAgIGltYWdlOiBhYnNvbHV0ZUltYWdlVXJsLFxuICAgICAgICAgIGRhdGVQdWJsaXNoZWQ6IHB1Ymxpc2hEYXRlLFxuICAgICAgICAgIGRhdGVNb2RpZmllZDogbW9kaWZpZWREYXRlIHx8IHB1Ymxpc2hEYXRlLFxuICAgICAgICAgIGF1dGhvcjoge1xuICAgICAgICAgICAgJ0B0eXBlJzogJ09yZ2FuaXphdGlvbicsXG4gICAgICAgICAgICBuYW1lOiBhdXRob3IgfHwgJ0FJUk9USVggVGVjaG5vbG9naWVzJ1xuICAgICAgICAgIH0sXG4gICAgICAgICAgcHVibGlzaGVyOiB7XG4gICAgICAgICAgICAnQHR5cGUnOiAnT3JnYW5pemF0aW9uJyxcbiAgICAgICAgICAgIG5hbWU6ICdBSVJPVElYIFRlY2hub2xvZ2llcycsXG4gICAgICAgICAgICBsb2dvOiB7XG4gICAgICAgICAgICAgICdAdHlwZSc6ICdJbWFnZU9iamVjdCcsXG4gICAgICAgICAgICAgIHVybDogJ2h0dHBzOi8vYWlyb3RpeC5jb20vbG92YWJsZS11cGxvYWRzL2Fpcm90aXgubG9nby53aGl0ZS5wbmcnLFxuICAgICAgICAgICAgICB3aWR0aDogMTAyNCxcbiAgICAgICAgICAgICAgaGVpZ2h0OiAxMDI0XG4gICAgICAgICAgICB9XG4gICAgICAgICAgfSxcbiAgICAgICAgICBhcnRpY2xlU2VjdGlvbjogY2F0ZWdvcnkgfHwgJ0FJICYgQ29tcHV0ZXIgVmlzaW9uJyxcbiAgICAgICAgICBrZXl3b3JkczogZW5oYW5jZWRLZXl3b3Jkcy5qb2luKCcsICcpLFxuICAgICAgICAgIGlzQWNjZXNzaWJsZUZvckZyZWU6IHRydWVcbiAgICAgICAgfVxuICAgICAgOiBudWxsO1xuXG4gIC8qIC0tLSBPUFRJT05BTDogQWRkIEZBUXMgaWYgbmVlZGVkICh5b3UgY2FuIGtlZXAgeW91ciBleGlzdGluZyBvbmVzKSAtLS0gKi9cblxuICBjb25zdCBrZXl3b3JkU3RyaW5nID0gZW5oYW5jZWRLZXl3b3Jkcy5qb2luKCcsICcpO1xuXG4gIHJldHVybiAoXG4gICAgPEhlbG1ldD5cbiAgICAgIDx0aXRsZT57dGl0bGV9PC90aXRsZT5cblxuICAgICAgPG1ldGEgbmFtZT1cImRlc2NyaXB0aW9uXCIgY29udGVudD17ZGVzY3JpcHRpb259IC8+XG4gICAgICA8bWV0YSBuYW1lPVwia2V5d29yZHNcIiBjb250ZW50PXtrZXl3b3JkU3RyaW5nfSAvPlxuICAgICAgPG1ldGEgbmFtZT1cInJvYm90c1wiIGNvbnRlbnQ9XCJpbmRleCwgZm9sbG93LCBtYXgtc25pcHBldDotMSwgbWF4LWltYWdlLXByZXZpZXc6bGFyZ2UsIG1heC12aWRlby1wcmV2aWV3Oi0xXCIgLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJhdXRob3JcIiBjb250ZW50PXthdXRob3IgfHwgbmFtZX0gLz5cblxuICAgICAgPGxpbmsgcmVsPVwiY2Fub25pY2FsXCIgaHJlZj17Y3VycmVudFVybH0gLz5cblxuICAgICAgey8qIE9wZW4gR3JhcGggKi99XG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOnR5cGVcIiBjb250ZW50PXtpc0Jsb2dQb3N0ID8gJ2FydGljbGUnIDogdHlwZX0gLz5cbiAgICAgIDxtZXRhIHByb3BlcnR5PVwib2c6dGl0bGVcIiBjb250ZW50PXt0aXRsZX0gLz5cbiAgICAgIDxtZXRhIHByb3BlcnR5PVwib2c6ZGVzY3JpcHRpb25cIiBjb250ZW50PXtkZXNjcmlwdGlvbn0gLz5cbiAgICAgIDxtZXRhIHByb3BlcnR5PVwib2c6aW1hZ2VcIiBjb250ZW50PXthYnNvbHV0ZUltYWdlVXJsfSAvPlxuICAgICAgPG1ldGEgcHJvcGVydHk9XCJvZzp1cmxcIiBjb250ZW50PXtjdXJyZW50VXJsfSAvPlxuICAgICAgPG1ldGEgcHJvcGVydHk9XCJvZzpzaXRlX25hbWVcIiBjb250ZW50PVwiQUlST1RJWCBUZWNobm9sb2dpZXNcIiAvPlxuICAgICAgPG1ldGEgcHJvcGVydHk9XCJvZzpsb2NhbGVcIiBjb250ZW50PVwiZW5fVVNcIiAvPlxuXG4gICAgICB7LyogVHdpdHRlciAqL31cbiAgICAgIDxtZXRhIG5hbWU9XCJ0d2l0dGVyOmNhcmRcIiBjb250ZW50PVwic3VtbWFyeV9sYXJnZV9pbWFnZVwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwidHdpdHRlcjp0aXRsZVwiIGNvbnRlbnQ9e3RpdGxlfSAvPlxuICAgICAgPG1ldGEgbmFtZT1cInR3aXR0ZXI6ZGVzY3JpcHRpb25cIiBjb250ZW50PXtkZXNjcmlwdGlvbn0gLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJ0d2l0dGVyOmltYWdlXCIgY29udGVudD17YWJzb2x1dGVJbWFnZVVybH0gLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJ0d2l0dGVyOmNyZWF0b3JcIiBjb250ZW50PVwiQGFpcm90aXhcIiAvPlxuXG4gICAgICB7LyogVGhlbWUgKi99XG4gICAgICA8bWV0YSBuYW1lPVwidGhlbWUtY29sb3JcIiBjb250ZW50PVwiIzAwMDAwMFwiIC8+XG5cbiAgICAgIHsvKiBTdHJ1Y3R1cmVkIERhdGEgKEpTT04tTEQpICovfVxuICAgICAgPHNjcmlwdCB0eXBlPVwiYXBwbGljYXRpb24vbGQranNvblwiPlxuICAgICAgICB7SlNPTi5zdHJpbmdpZnkod2ViU2l0ZVN0cnVjdHVyZWREYXRhKX1cbiAgICAgIDwvc2NyaXB0PlxuXG4gICAgICA8c2NyaXB0IHR5cGU9XCJhcHBsaWNhdGlvbi9sZCtqc29uXCI+XG4gICAgICAgIHtKU09OLnN0cmluZ2lmeShvcmdhbml6YXRpb25TdHJ1Y3R1cmVkRGF0YSl9XG4gICAgICA8L3NjcmlwdD5cblxuICAgICAge2Jsb2dQb3N0U3RydWN0dXJlZERhdGEgJiYgKFxuICAgICAgICA8c2NyaXB0IHR5cGU9XCJhcHBsaWNhdGlvbi9sZCtqc29uXCI+XG4gICAgICAgICAge0pTT04uc3RyaW5naWZ5KGJsb2dQb3N0U3RydWN0dXJlZERhdGEpfVxuICAgICAgICA8L3NjcmlwdD5cbiAgICAgICl9XG4gICAgPC9IZWxtZXQ+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBTRU87XG4iXSwiZmlsZSI6IkM6L1VzZXJzL0ZCQy9EZXNrdG9wL1dPUksvYWlyb3RpeCB3ZWJzaXRlL2Fpcm90aXgtTFAtbWFpbi9haXJvdGl4LUxQLW1haW4vc3JjL2NvbXBvbmVudHMvU0VPLnRzeCJ9

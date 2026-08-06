@@ -1,0 +1,499 @@
+import { createHotContext as __vite__createHotContext } from "/@vite/client";import.meta.hot = __vite__createHotContext("/src/App.tsx");if (!window.$RefreshReg$) throw new Error("React refresh preamble was not loaded. Something is wrong.");
+const prevRefreshReg = window.$RefreshReg$;
+const prevRefreshSig = window.$RefreshSig$;
+window.$RefreshReg$ = RefreshRuntime.getRefreshReg("C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx");
+window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+
+import * as RefreshRuntime from "/@react-refresh";
+
+import __vite__cjsImport1_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=324baea8"; const _jsxDEV = __vite__cjsImport1_react_jsxDevRuntime["jsxDEV"];
+var _s = $RefreshSig$();
+import { Toaster } from "/src/components/ui/toaster.tsx";
+import { Toaster as Sonner } from "/src/components/ui/sonner.tsx";
+import { TooltipProvider } from "/src/components/ui/tooltip.tsx";
+import { QueryClient, QueryClientProvider } from "/node_modules/.vite/deps/@tanstack_react-query.js?v=324baea8";
+import { BrowserRouter, Routes, Route } from "/node_modules/.vite/deps/react-router-dom.js?v=324baea8";
+import __vite__cjsImport7_react from "/node_modules/.vite/deps/react.js?v=324baea8"; const useState = __vite__cjsImport7_react["useState"]; const lazy = __vite__cjsImport7_react["lazy"]; const Suspense = __vite__cjsImport7_react["Suspense"];
+// Lazy load all route components for code splitting
+const Index = /*#__PURE__*/ lazy(_c = ()=>import("/src/pages/Index.tsx"));
+_c1 = Index;
+const NotFound = /*#__PURE__*/ lazy(_c2 = ()=>import("/src/pages/NotFound.tsx"));
+_c3 = NotFound;
+const About = /*#__PURE__*/ lazy(_c4 = ()=>import("/src/pages/About.tsx"));
+_c5 = About;
+const Services = /*#__PURE__*/ lazy(_c6 = ()=>import("/src/pages/Services.tsx"));
+_c7 = Services;
+const Industries = /*#__PURE__*/ lazy(_c8 = ()=>import("/src/pages/Industries.tsx"));
+_c9 = Industries;
+const Insights = /*#__PURE__*/ lazy(_c10 = ()=>import("/src/pages/Insights.tsx?t=1784881541836"));
+_c11 = Insights;
+const CaseStudies = /*#__PURE__*/ lazy(_c12 = ()=>import("/src/pages/CaseStudies.tsx"));
+_c13 = CaseStudies;
+const PrivacyPolicy = /*#__PURE__*/ lazy(_c14 = ()=>import("/src/pages/PrivacyPolicy.tsx"));
+_c15 = PrivacyPolicy;
+const PreduitRedirect = /*#__PURE__*/ lazy(_c16 = ()=>import("/src/pages/PreduitRedirect.tsx"));
+_c17 = PreduitRedirect;
+// Loading fallback component
+const LoadingFallback = ()=>/*#__PURE__*/ _jsxDEV("div", {
+        "data-lov-id": "src\\App.tsx:22:2",
+        "data-lov-name": "div",
+        "data-component-path": "src\\App.tsx",
+        "data-component-line": "22",
+        "data-component-file": "App.tsx",
+        "data-component-name": "div",
+        "data-component-content": "%7B%22className%22%3A%22min-h-screen%20flex%20items-center%20justify-center%20bg-white%22%7D",
+        className: "min-h-screen flex items-center justify-center bg-white",
+        children: /*#__PURE__*/ _jsxDEV("div", {
+            "data-lov-id": "src\\App.tsx:23:4",
+            "data-lov-name": "div",
+            "data-component-path": "src\\App.tsx",
+            "data-component-line": "23",
+            "data-component-file": "App.tsx",
+            "data-component-name": "div",
+            "data-component-content": "%7B%22className%22%3A%22text-center%22%7D",
+            className: "text-center",
+            children: [
+                /*#__PURE__*/ _jsxDEV("div", {
+                    "data-lov-id": "src\\App.tsx:24:6",
+                    "data-lov-name": "div",
+                    "data-component-path": "src\\App.tsx",
+                    "data-component-line": "24",
+                    "data-component-file": "App.tsx",
+                    "data-component-name": "div",
+                    "data-component-content": "%7B%22className%22%3A%22animate-spin%20rounded-full%20h-12%20w-12%20border-b-2%20border-gray-900%20mx-auto%20mb-4%22%7D",
+                    className: "animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto mb-4"
+                }, void 0, false, {
+                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                    lineNumber: 24,
+                    columnNumber: 7
+                }, this),
+                /*#__PURE__*/ _jsxDEV("p", {
+                    "data-lov-id": "src\\App.tsx:25:6",
+                    "data-lov-name": "p",
+                    "data-component-path": "src\\App.tsx",
+                    "data-component-line": "25",
+                    "data-component-file": "App.tsx",
+                    "data-component-name": "p",
+                    "data-component-content": "%7B%22text%22%3A%22Loading...%22%2C%22className%22%3A%22text-gray-600%22%7D",
+                    className: "text-gray-600",
+                    children: "Loading..."
+                }, void 0, false, {
+                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                    lineNumber: 25,
+                    columnNumber: 7
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+            lineNumber: 23,
+            columnNumber: 5
+        }, this)
+    }, void 0, false, {
+        fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+        lineNumber: 22,
+        columnNumber: 3
+    }, this);
+_c18 = LoadingFallback;
+const App = ()=>{
+    _s();
+    const [queryClient] = useState(()=>new QueryClient({
+            defaultOptions: {
+                queries: {
+                    refetchOnWindowFocus: false,
+                    retry: 1,
+                    staleTime: 5 * 60 * 1000
+                }
+            }
+        }));
+    return /*#__PURE__*/ _jsxDEV(QueryClientProvider, {
+        "data-lov-id": "src\\App.tsx:42:4",
+        "data-lov-name": "QueryClientProvider",
+        "data-component-path": "src\\App.tsx",
+        "data-component-line": "42",
+        "data-component-file": "App.tsx",
+        "data-component-name": "QueryClientProvider",
+        "data-component-content": "%7B%7D",
+        client: queryClient,
+        children: /*#__PURE__*/ _jsxDEV(TooltipProvider, {
+            "data-lov-id": "src\\App.tsx:43:6",
+            "data-lov-name": "TooltipProvider",
+            "data-component-path": "src\\App.tsx",
+            "data-component-line": "43",
+            "data-component-file": "App.tsx",
+            "data-component-name": "TooltipProvider",
+            "data-component-content": "%7B%7D",
+            children: [
+                /*#__PURE__*/ _jsxDEV(Toaster, {
+                    "data-lov-id": "src\\App.tsx:44:8",
+                    "data-lov-name": "Toaster",
+                    "data-component-path": "src\\App.tsx",
+                    "data-component-line": "44",
+                    "data-component-file": "App.tsx",
+                    "data-component-name": "Toaster",
+                    "data-component-content": "%7B%7D"
+                }, void 0, false, {
+                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                    lineNumber: 44,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDEV(Sonner, {
+                    "data-lov-id": "src\\App.tsx:45:8",
+                    "data-lov-name": "Sonner",
+                    "data-component-path": "src\\App.tsx",
+                    "data-component-line": "45",
+                    "data-component-file": "App.tsx",
+                    "data-component-name": "Sonner",
+                    "data-component-content": "%7B%7D"
+                }, void 0, false, {
+                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                    lineNumber: 45,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDEV(BrowserRouter, {
+                    "data-lov-id": "src\\App.tsx:46:8",
+                    "data-lov-name": "BrowserRouter",
+                    "data-component-path": "src\\App.tsx",
+                    "data-component-line": "46",
+                    "data-component-file": "App.tsx",
+                    "data-component-name": "BrowserRouter",
+                    "data-component-content": "%7B%7D",
+                    children: /*#__PURE__*/ _jsxDEV(Suspense, {
+                        "data-lov-id": "src\\App.tsx:47:10",
+                        "data-lov-name": "Suspense",
+                        "data-component-path": "src\\App.tsx",
+                        "data-component-line": "47",
+                        "data-component-file": "App.tsx",
+                        "data-component-name": "Suspense",
+                        "data-component-content": "%7B%7D",
+                        fallback: /*#__PURE__*/ _jsxDEV(LoadingFallback, {
+                            "data-lov-id": "src\\App.tsx:47:30",
+                            "data-lov-name": "LoadingFallback",
+                            "data-component-path": "src\\App.tsx",
+                            "data-component-line": "47",
+                            "data-component-file": "App.tsx",
+                            "data-component-name": "LoadingFallback",
+                            "data-component-content": "%7B%7D"
+                        }, void 0, false, {
+                            fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                            lineNumber: 47,
+                            columnNumber: 241
+                        }, void 0),
+                        children: /*#__PURE__*/ _jsxDEV(Routes, {
+                            "data-lov-id": "src\\App.tsx:48:12",
+                            "data-lov-name": "Routes",
+                            "data-component-path": "src\\App.tsx",
+                            "data-component-line": "48",
+                            "data-component-file": "App.tsx",
+                            "data-component-name": "Routes",
+                            "data-component-content": "%7B%7D",
+                            children: [
+                                /*#__PURE__*/ _jsxDEV(Route, {
+                                    "data-lov-id": "src\\App.tsx:49:14",
+                                    "data-lov-name": "Route",
+                                    "data-component-path": "src\\App.tsx",
+                                    "data-component-line": "49",
+                                    "data-component-file": "App.tsx",
+                                    "data-component-name": "Route",
+                                    "data-component-content": "%7B%7D",
+                                    path: "/",
+                                    element: /*#__PURE__*/ _jsxDEV(Index, {
+                                        "data-lov-id": "src\\App.tsx:49:39",
+                                        "data-lov-name": "Index",
+                                        "data-component-path": "src\\App.tsx",
+                                        "data-component-line": "49",
+                                        "data-component-file": "App.tsx",
+                                        "data-component-name": "Index",
+                                        "data-component-content": "%7B%7D"
+                                    }, void 0, false, {
+                                        fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                        lineNumber: 49,
+                                        columnNumber: 244
+                                    }, void 0)
+                                }, void 0, false, {
+                                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                    lineNumber: 49,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ _jsxDEV(Route, {
+                                    "data-lov-id": "src\\App.tsx:50:14",
+                                    "data-lov-name": "Route",
+                                    "data-component-path": "src\\App.tsx",
+                                    "data-component-line": "50",
+                                    "data-component-file": "App.tsx",
+                                    "data-component-name": "Route",
+                                    "data-component-content": "%7B%7D",
+                                    path: "/about",
+                                    element: /*#__PURE__*/ _jsxDEV(About, {
+                                        "data-lov-id": "src\\App.tsx:50:44",
+                                        "data-lov-name": "About",
+                                        "data-component-path": "src\\App.tsx",
+                                        "data-component-line": "50",
+                                        "data-component-file": "App.tsx",
+                                        "data-component-name": "About",
+                                        "data-component-content": "%7B%7D"
+                                    }, void 0, false, {
+                                        fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                        lineNumber: 50,
+                                        columnNumber: 249
+                                    }, void 0)
+                                }, void 0, false, {
+                                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                    lineNumber: 50,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ _jsxDEV(Route, {
+                                    "data-lov-id": "src\\App.tsx:51:14",
+                                    "data-lov-name": "Route",
+                                    "data-component-path": "src\\App.tsx",
+                                    "data-component-line": "51",
+                                    "data-component-file": "App.tsx",
+                                    "data-component-name": "Route",
+                                    "data-component-content": "%7B%7D",
+                                    path: "/services",
+                                    element: /*#__PURE__*/ _jsxDEV(Services, {
+                                        "data-lov-id": "src\\App.tsx:51:47",
+                                        "data-lov-name": "Services",
+                                        "data-component-path": "src\\App.tsx",
+                                        "data-component-line": "51",
+                                        "data-component-file": "App.tsx",
+                                        "data-component-name": "Services",
+                                        "data-component-content": "%7B%7D"
+                                    }, void 0, false, {
+                                        fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                        lineNumber: 51,
+                                        columnNumber: 252
+                                    }, void 0)
+                                }, void 0, false, {
+                                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                    lineNumber: 51,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ _jsxDEV(Route, {
+                                    "data-lov-id": "src\\App.tsx:52:14",
+                                    "data-lov-name": "Route",
+                                    "data-component-path": "src\\App.tsx",
+                                    "data-component-line": "52",
+                                    "data-component-file": "App.tsx",
+                                    "data-component-name": "Route",
+                                    "data-component-content": "%7B%7D",
+                                    path: "/industries",
+                                    element: /*#__PURE__*/ _jsxDEV(Industries, {
+                                        "data-lov-id": "src\\App.tsx:52:49",
+                                        "data-lov-name": "Industries",
+                                        "data-component-path": "src\\App.tsx",
+                                        "data-component-line": "52",
+                                        "data-component-file": "App.tsx",
+                                        "data-component-name": "Industries",
+                                        "data-component-content": "%7B%7D"
+                                    }, void 0, false, {
+                                        fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                        lineNumber: 52,
+                                        columnNumber: 254
+                                    }, void 0)
+                                }, void 0, false, {
+                                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                    lineNumber: 52,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ _jsxDEV(Route, {
+                                    "data-lov-id": "src\\App.tsx:53:14",
+                                    "data-lov-name": "Route",
+                                    "data-component-path": "src\\App.tsx",
+                                    "data-component-line": "53",
+                                    "data-component-file": "App.tsx",
+                                    "data-component-name": "Route",
+                                    "data-component-content": "%7B%7D",
+                                    path: "/insights",
+                                    element: /*#__PURE__*/ _jsxDEV(Insights, {
+                                        "data-lov-id": "src\\App.tsx:53:47",
+                                        "data-lov-name": "Insights",
+                                        "data-component-path": "src\\App.tsx",
+                                        "data-component-line": "53",
+                                        "data-component-file": "App.tsx",
+                                        "data-component-name": "Insights",
+                                        "data-component-content": "%7B%7D"
+                                    }, void 0, false, {
+                                        fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                        lineNumber: 53,
+                                        columnNumber: 252
+                                    }, void 0)
+                                }, void 0, false, {
+                                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                    lineNumber: 53,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ _jsxDEV(Route, {
+                                    "data-lov-id": "src\\App.tsx:54:14",
+                                    "data-lov-name": "Route",
+                                    "data-component-path": "src\\App.tsx",
+                                    "data-component-line": "54",
+                                    "data-component-file": "App.tsx",
+                                    "data-component-name": "Route",
+                                    "data-component-content": "%7B%7D",
+                                    path: "/case-studies",
+                                    element: /*#__PURE__*/ _jsxDEV(CaseStudies, {
+                                        "data-lov-id": "src\\App.tsx:54:51",
+                                        "data-lov-name": "CaseStudies",
+                                        "data-component-path": "src\\App.tsx",
+                                        "data-component-line": "54",
+                                        "data-component-file": "App.tsx",
+                                        "data-component-name": "CaseStudies",
+                                        "data-component-content": "%7B%7D"
+                                    }, void 0, false, {
+                                        fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                        lineNumber: 54,
+                                        columnNumber: 256
+                                    }, void 0)
+                                }, void 0, false, {
+                                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                    lineNumber: 54,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ _jsxDEV(Route, {
+                                    "data-lov-id": "src\\App.tsx:55:14",
+                                    "data-lov-name": "Route",
+                                    "data-component-path": "src\\App.tsx",
+                                    "data-component-line": "55",
+                                    "data-component-file": "App.tsx",
+                                    "data-component-name": "Route",
+                                    "data-component-content": "%7B%7D",
+                                    path: "/preduit",
+                                    element: /*#__PURE__*/ _jsxDEV(PreduitRedirect, {
+                                        "data-lov-id": "src\\App.tsx:55:46",
+                                        "data-lov-name": "PreduitRedirect",
+                                        "data-component-path": "src\\App.tsx",
+                                        "data-component-line": "55",
+                                        "data-component-file": "App.tsx",
+                                        "data-component-name": "PreduitRedirect",
+                                        "data-component-content": "%7B%7D"
+                                    }, void 0, false, {
+                                        fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                        lineNumber: 55,
+                                        columnNumber: 251
+                                    }, void 0)
+                                }, void 0, false, {
+                                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                    lineNumber: 55,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ _jsxDEV(Route, {
+                                    "data-lov-id": "src\\App.tsx:56:14",
+                                    "data-lov-name": "Route",
+                                    "data-component-path": "src\\App.tsx",
+                                    "data-component-line": "56",
+                                    "data-component-file": "App.tsx",
+                                    "data-component-name": "Route",
+                                    "data-component-content": "%7B%7D",
+                                    path: "/privacy-policy",
+                                    element: /*#__PURE__*/ _jsxDEV(PrivacyPolicy, {
+                                        "data-lov-id": "src\\App.tsx:56:53",
+                                        "data-lov-name": "PrivacyPolicy",
+                                        "data-component-path": "src\\App.tsx",
+                                        "data-component-line": "56",
+                                        "data-component-file": "App.tsx",
+                                        "data-component-name": "PrivacyPolicy",
+                                        "data-component-content": "%7B%7D"
+                                    }, void 0, false, {
+                                        fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                        lineNumber: 56,
+                                        columnNumber: 258
+                                    }, void 0)
+                                }, void 0, false, {
+                                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                    lineNumber: 56,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ _jsxDEV(Route, {
+                                    "data-lov-id": "src\\App.tsx:57:14",
+                                    "data-lov-name": "Route",
+                                    "data-component-path": "src\\App.tsx",
+                                    "data-component-line": "57",
+                                    "data-component-file": "App.tsx",
+                                    "data-component-name": "Route",
+                                    "data-component-content": "%7B%7D",
+                                    path: "*",
+                                    element: /*#__PURE__*/ _jsxDEV(NotFound, {
+                                        "data-lov-id": "src\\App.tsx:57:39",
+                                        "data-lov-name": "NotFound",
+                                        "data-component-path": "src\\App.tsx",
+                                        "data-component-line": "57",
+                                        "data-component-file": "App.tsx",
+                                        "data-component-name": "NotFound",
+                                        "data-component-content": "%7B%7D"
+                                    }, void 0, false, {
+                                        fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                        lineNumber: 57,
+                                        columnNumber: 244
+                                    }, void 0)
+                                }, void 0, false, {
+                                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                                    lineNumber: 57,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                            lineNumber: 48,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                        lineNumber: 47,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+                    lineNumber: 46,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+            lineNumber: 43,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx",
+        lineNumber: 42,
+        columnNumber: 5
+    }, this);
+};
+_s(App, "hh+ggXgorBDfbDg5Tlw06op6jgI=");
+_c19 = App;
+export default App;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19;
+$RefreshReg$(_c, "Index$lazy");
+$RefreshReg$(_c1, "Index");
+$RefreshReg$(_c2, "NotFound$lazy");
+$RefreshReg$(_c3, "NotFound");
+$RefreshReg$(_c4, "About$lazy");
+$RefreshReg$(_c5, "About");
+$RefreshReg$(_c6, "Services$lazy");
+$RefreshReg$(_c7, "Services");
+$RefreshReg$(_c8, "Industries$lazy");
+$RefreshReg$(_c9, "Industries");
+$RefreshReg$(_c10, "Insights$lazy");
+$RefreshReg$(_c11, "Insights");
+$RefreshReg$(_c12, "CaseStudies$lazy");
+$RefreshReg$(_c13, "CaseStudies");
+$RefreshReg$(_c14, "PrivacyPolicy$lazy");
+$RefreshReg$(_c15, "PrivacyPolicy");
+$RefreshReg$(_c16, "PreduitRedirect$lazy");
+$RefreshReg$(_c17, "PreduitRedirect");
+$RefreshReg$(_c18, "LoadingFallback");
+$RefreshReg$(_c19, "App");
+
+
+window.$RefreshReg$ = prevRefreshReg;
+window.$RefreshSig$ = prevRefreshSig;
+
+RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {
+  RefreshRuntime.registerExportsForReactRefresh("C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx", currentExports);
+  import.meta.hot.accept((nextExports) => {
+    if (!nextExports) return;
+    const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate("C:/Users/FBC/Desktop/WORK/airotix website/airotix-LP-main/airotix-LP-main/src/App.tsx", currentExports, nextExports);
+    if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);
+  });
+});
+
+//# sourceMappingURL=data:application/json;base64,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QUFDckI7b0NBQUllLGVBQUE7b0NBQUFDLGlCQUFBO29DQUFBQyx1QkFBQTtvQ0FBQUMsdUJBQUE7b0NBQUFDLHVCQUFBO29DQUFBQyx1QkFBQTtvQ0FBQUMsMEJBQUE7b0NBQUVZLE1BQUs7b0NBQVdDLHVCQUFTLFFBQUN0Qjt3Q0FBY0csZUFBQTt3Q0FBQUMsaUJBQUE7d0NBQUFDLHVCQUFBO3dDQUFBQyx1QkFBQTt3Q0FBQUMsdUJBQUE7d0NBQUFDLHVCQUFBO3dDQUFBQywwQkFBQTs7Ozs7Ozs7Ozs7OENBQy9DLFFBQUNyQjtvQ0FBSWUsZUFBQTtvQ0FBQUMsaUJBQUE7b0NBQUFDLHVCQUFBO29DQUFBQyx1QkFBQTtvQ0FBQUMsdUJBQUE7b0NBQUFDLHVCQUFBO29DQUFBQywwQkFBQTtvQ0FBRVksTUFBSztvQ0FBa0JDLHVCQUFTLFFBQUN2Qjt3Q0FBWUksZUFBQTt3Q0FBQUMsaUJBQUE7d0NBQUFDLHVCQUFBO3dDQUFBQyx1QkFBQTt3Q0FBQUMsdUJBQUE7d0NBQUFDLHVCQUFBO3dDQUFBQywwQkFBQTs7Ozs7Ozs7Ozs7OENBQ3BELFFBQUNyQjtvQ0FBSWUsZUFBQTtvQ0FBQUMsaUJBQUE7b0NBQUFDLHVCQUFBO29DQUFBQyx1QkFBQTtvQ0FBQUMsdUJBQUE7b0NBQUFDLHVCQUFBO29DQUFBQywwQkFBQTtvQ0FBRVksTUFBSztvQ0FBSUMsdUJBQVMsUUFBQzdCO3dDQUFPVSxlQUFBO3dDQUFBQyxpQkFBQTt3Q0FBQUMsdUJBQUE7d0NBQUFDLHVCQUFBO3dDQUFBQyx1QkFBQTt3Q0FBQUMsdUJBQUE7d0NBQUFDLDBCQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQU8vQztHQWxDTUc7T0FBQUE7QUFvQ04sZUFBZUEsSUFBRyIsIm5hbWVzIjpbIlRvYXN0ZXIiLCJTb25uZXIiLCJUb29sdGlwUHJvdmlkZXIiLCJRdWVyeUNsaWVudCIsIlF1ZXJ5Q2xpZW50UHJvdmlkZXIiLCJCcm93c2VyUm91dGVyIiwiUm91dGVzIiwiUm91dGUiLCJ1c2VTdGF0ZSIsImxhenkiLCJTdXNwZW5zZSIsIkluZGV4IiwiTm90Rm91bmQiLCJBYm91dCIsIlNlcnZpY2VzIiwiSW5kdXN0cmllcyIsIkluc2lnaHRzIiwiQ2FzZVN0dWRpZXMiLCJQcml2YWN5UG9saWN5IiwiUHJlZHVpdFJlZGlyZWN0IiwiTG9hZGluZ0ZhbGxiYWNrIiwiZGl2IiwiZGF0YS1sb3YtaWQiLCJkYXRhLWxvdi1uYW1lIiwiZGF0YS1jb21wb25lbnQtcGF0aCIsImRhdGEtY29tcG9uZW50LWxpbmUiLCJkYXRhLWNvbXBvbmVudC1maWxlIiwiZGF0YS1jb21wb25lbnQtbmFtZSIsImRhdGEtY29tcG9uZW50LWNvbnRlbnQiLCJjbGFzc05hbWUiLCJwIiwiQXBwIiwicXVlcnlDbGllbnQiLCJkZWZhdWx0T3B0aW9ucyIsInF1ZXJpZXMiLCJyZWZldGNoT25XaW5kb3dGb2N1cyIsInJldHJ5Iiwic3RhbGVUaW1lIiwiY2xpZW50IiwiZmFsbGJhY2siLCJwYXRoIiwiZWxlbWVudCJdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlcyI6WyJBcHAudHN4Il0sInNvdXJjZXNDb250ZW50IjpbIlxuaW1wb3J0IHsgVG9hc3RlciB9IGZyb20gXCJAL2NvbXBvbmVudHMvdWkvdG9hc3RlclwiO1xuaW1wb3J0IHsgVG9hc3RlciBhcyBTb25uZXIgfSBmcm9tIFwiQC9jb21wb25lbnRzL3VpL3Nvbm5lclwiO1xuaW1wb3J0IHsgVG9vbHRpcFByb3ZpZGVyIH0gZnJvbSBcIkAvY29tcG9uZW50cy91aS90b29sdGlwXCI7XG5pbXBvcnQgeyBRdWVyeUNsaWVudCwgUXVlcnlDbGllbnRQcm92aWRlciB9IGZyb20gXCJAdGFuc3RhY2svcmVhY3QtcXVlcnlcIjtcbmltcG9ydCB7IEJyb3dzZXJSb3V0ZXIsIFJvdXRlcywgUm91dGUgfSBmcm9tIFwicmVhY3Qtcm91dGVyLWRvbVwiO1xuaW1wb3J0IHsgdXNlU3RhdGUsIGxhenksIFN1c3BlbnNlIH0gZnJvbSBcInJlYWN0XCI7XG5cbi8vIExhenkgbG9hZCBhbGwgcm91dGUgY29tcG9uZW50cyBmb3IgY29kZSBzcGxpdHRpbmdcbmNvbnN0IEluZGV4ID0gbGF6eSgoKSA9PiBpbXBvcnQoXCIuL3BhZ2VzL0luZGV4XCIpKTtcbmNvbnN0IE5vdEZvdW5kID0gbGF6eSgoKSA9PiBpbXBvcnQoXCIuL3BhZ2VzL05vdEZvdW5kXCIpKTtcbmNvbnN0IEFib3V0ID0gbGF6eSgoKSA9PiBpbXBvcnQoXCIuL3BhZ2VzL0Fib3V0XCIpKTtcbmNvbnN0IFNlcnZpY2VzID0gbGF6eSgoKSA9PiBpbXBvcnQoXCIuL3BhZ2VzL1NlcnZpY2VzXCIpKTtcbmNvbnN0IEluZHVzdHJpZXMgPSBsYXp5KCgpID0+IGltcG9ydChcIi4vcGFnZXMvSW5kdXN0cmllc1wiKSk7XG5jb25zdCBJbnNpZ2h0cyA9IGxhenkoKCkgPT4gaW1wb3J0KFwiLi9wYWdlcy9JbnNpZ2h0c1wiKSk7XG5jb25zdCBDYXNlU3R1ZGllcyA9IGxhenkoKCkgPT4gaW1wb3J0KFwiLi9wYWdlcy9DYXNlU3R1ZGllc1wiKSk7XG5jb25zdCBQcml2YWN5UG9saWN5ID0gbGF6eSgoKSA9PiBpbXBvcnQoXCIuL3BhZ2VzL1ByaXZhY3lQb2xpY3lcIikpO1xuY29uc3QgUHJlZHVpdFJlZGlyZWN0ID0gbGF6eSgoKSA9PiBpbXBvcnQoXCIuL3BhZ2VzL1ByZWR1aXRSZWRpcmVjdFwiKSk7XG5cbi8vIExvYWRpbmcgZmFsbGJhY2sgY29tcG9uZW50XG5jb25zdCBMb2FkaW5nRmFsbGJhY2sgPSAoKSA9PiAoXG4gIDxkaXYgY2xhc3NOYW1lPVwibWluLWgtc2NyZWVuIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGJnLXdoaXRlXCI+XG4gICAgPGRpdiBjbGFzc05hbWU9XCJ0ZXh0LWNlbnRlclwiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJhbmltYXRlLXNwaW4gcm91bmRlZC1mdWxsIGgtMTIgdy0xMiBib3JkZXItYi0yIGJvcmRlci1ncmF5LTkwMCBteC1hdXRvIG1iLTRcIj48L2Rpdj5cbiAgICAgIDxwIGNsYXNzTmFtZT1cInRleHQtZ3JheS02MDBcIj5Mb2FkaW5nLi4uPC9wPlxuICAgIDwvZGl2PlxuICA8L2Rpdj5cbik7XG5cbmNvbnN0IEFwcCA9ICgpID0+IHtcbiAgY29uc3QgW3F1ZXJ5Q2xpZW50XSA9IHVzZVN0YXRlKCgpID0+IG5ldyBRdWVyeUNsaWVudCh7XG4gICAgZGVmYXVsdE9wdGlvbnM6IHtcbiAgICAgIHF1ZXJpZXM6IHtcbiAgICAgICAgcmVmZXRjaE9uV2luZG93Rm9jdXM6IGZhbHNlLFxuICAgICAgICByZXRyeTogMSxcbiAgICAgICAgc3RhbGVUaW1lOiA1ICogNjAgKiAxMDAwLCAvLyA1IG1pbnV0ZXNcbiAgICAgIH0sXG4gICAgfSxcbiAgfSkpO1xuXG4gIHJldHVybiAoXG4gICAgPFF1ZXJ5Q2xpZW50UHJvdmlkZXIgY2xpZW50PXtxdWVyeUNsaWVudH0+XG4gICAgICA8VG9vbHRpcFByb3ZpZGVyPlxuICAgICAgICA8VG9hc3RlciAvPlxuICAgICAgICA8U29ubmVyIC8+XG4gICAgICAgIDxCcm93c2VyUm91dGVyPlxuICAgICAgICAgIDxTdXNwZW5zZSBmYWxsYmFjaz17PExvYWRpbmdGYWxsYmFjayAvPn0+XG4gICAgICAgICAgICA8Um91dGVzPlxuICAgICAgICAgICAgICA8Um91dGUgcGF0aD1cIi9cIiBlbGVtZW50PXs8SW5kZXggLz59IC8+XG4gICAgICAgICAgICAgIDxSb3V0ZSBwYXRoPVwiL2Fib3V0XCIgZWxlbWVudD17PEFib3V0IC8+fSAvPlxuICAgICAgICAgICAgICA8Um91dGUgcGF0aD1cIi9zZXJ2aWNlc1wiIGVsZW1lbnQ9ezxTZXJ2aWNlcyAvPn0gLz5cbiAgICAgICAgICAgICAgPFJvdXRlIHBhdGg9XCIvaW5kdXN0cmllc1wiIGVsZW1lbnQ9ezxJbmR1c3RyaWVzIC8+fSAvPlxuICAgICAgICAgICAgICA8Um91dGUgcGF0aD1cIi9pbnNpZ2h0c1wiIGVsZW1lbnQ9ezxJbnNpZ2h0cyAvPn0gLz5cbiAgICAgICAgICAgICAgPFJvdXRlIHBhdGg9XCIvY2FzZS1zdHVkaWVzXCIgZWxlbWVudD17PENhc2VTdHVkaWVzIC8+fSAvPlxuICAgICAgICAgICAgICA8Um91dGUgcGF0aD1cIi9wcmVkdWl0XCIgZWxlbWVudD17PFByZWR1aXRSZWRpcmVjdCAvPn0gLz5cbiAgICAgICAgICAgICAgPFJvdXRlIHBhdGg9XCIvcHJpdmFjeS1wb2xpY3lcIiBlbGVtZW50PXs8UHJpdmFjeVBvbGljeSAvPn0gLz5cbiAgICAgICAgICAgICAgPFJvdXRlIHBhdGg9XCIqXCIgZWxlbWVudD17PE5vdEZvdW5kIC8+fSAvPlxuICAgICAgICAgICAgPC9Sb3V0ZXM+XG4gICAgICAgICAgPC9TdXNwZW5zZT5cbiAgICAgICAgPC9Ccm93c2VyUm91dGVyPlxuICAgICAgPC9Ub29sdGlwUHJvdmlkZXI+XG4gICAgPC9RdWVyeUNsaWVudFByb3ZpZGVyPlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgQXBwO1xuIl0sImZpbGUiOiJDOi9Vc2Vycy9GQkMvRGVza3RvcC9XT1JLL2Fpcm90aXggd2Vic2l0ZS9haXJvdGl4LUxQLW1haW4vYWlyb3RpeC1MUC1tYWluL3NyYy9BcHAudHN4In0=
